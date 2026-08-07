@@ -1,9 +1,13 @@
 [
   {
     "id": "av-agamenon-45",
-    "nome": "Edifício Av. Agamenon 45",
-    "endereco": "Avenida Governador Agamenon Magalhães, 45",
+    "nome": "teste do jason",
+    "logradouro": "Avenida Governador Agamenon Magalhães",
     "bairro": "Boa Vista",
+    "numero": "45",
+    "uso": "Residencial",
+    "tipologia": "Unifamiliar",
+    "endereco": "Avenida Governador Agamenon Magalhães, 45 - Recife - PE",
     "arquiteto": "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
     "projetistas": [
       {
@@ -25,6 +29,7 @@
       "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
     ],
     "fotos": [],
+    "temMultiplosProjetos": true,
     "etapas": [
       {
         "ano": "1969",
@@ -32,11 +37,7 @@
         "projetistas": "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
         "descricao": "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1969."
       }
-    ],
-    "logradouro": "Avenida Governador Agamenon Magalhães",
-    "numero": "45",
-    "uso": "Residencial",
-    "tipologia": "Unifamiliar"
+    ]
   },
   {
     "id": "av-agamenon-55",
