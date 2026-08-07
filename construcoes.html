@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edifícios - GUIA</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="header-placeholder"></div>
+
+  <main class="page-content constructions-page">
+    <div class="constructions-header">
+      <div>
+        <h1>edifícios</h1>
+        <p>Arquivo de edifícios modernos mapeados.</p>
+      </div>
+    </div>
+
+    <!-- BARRA DE FILTROS (DÉCADAS, TIPO DE USO E TIPOLOGIA) -->
+    <div class="building-filters-wrapper">
+      <div class="decade-filter-bar" aria-label="Filtrar edifícios por década">
+        <span class="filter-label">década:</span>
+        <div class="decade-toggles" id="decade-toggles">
+          <button type="button" class="decade-toggle is-active" data-decade="all">todas</button>
+          <button type="button" class="decade-toggle" data-decade="1910">1910</button>
+          <button type="button" class="decade-toggle" data-decade="1920">1920</button>
+          <button type="button" class="decade-toggle" data-decade="1930">1930</button>
+          <button type="button" class="decade-toggle" data-decade="1940">1940</button>
+          <button type="button" class="decade-toggle" data-decade="1950">1950</button>
+          <button type="button" class="decade-toggle" data-decade="1960">1960</button>
+          <button type="button" class="decade-toggle" data-decade="1970">1970</button>
+          <button type="button" class="decade-toggle" data-decade="1980">1980</button>
+          <button type="button" class="decade-toggle" data-decade="1990">1990</button>
+          <button type="button" class="decade-toggle" data-decade="2000">2000</button>
+        </div>
+      </div>
+
+      <div class="decade-filter-bar" aria-label="Filtrar edifícios por tipo de uso">
+        <span class="filter-label">uso:</span>
+        <div class="decade-toggles" id="uso-toggles">
+          <button type="button" class="uso-toggle decade-toggle is-active" data-uso="all">todos</button>
+          <button type="button" class="uso-toggle decade-toggle" data-uso="Residencial">residencial</button>
+          <button type="button" class="uso-toggle decade-toggle" data-uso="Comercial">comercial</button>
+          <button type="button" class="uso-toggle decade-toggle" data-uso="Misto">uso misto</button>
+          <button type="button" class="uso-toggle decade-toggle" data-uso="Institucional">institucional</button>
+        </div>
+      </div>
+
+      <div class="decade-filter-bar" aria-label="Filtrar edifícios por tipologia residencial">
+        <span class="filter-label">tipologia:</span>
+        <div class="decade-toggles" id="tipologia-toggles">
+          <button type="button" class="tipologia-toggle decade-toggle is-active" data-tipologia="all">todas</button>
+          <button type="button" class="tipologia-toggle decade-toggle" data-tipologia="Unifamiliar">unifamiliar</button>
+          <button type="button" class="tipologia-toggle decade-toggle" data-tipologia="Multifamiliar">multifamiliar</button>
+        </div>
+      </div>
+    </div>
+
+    <section id="constructions-grid" class="constructions-grid" aria-label="Lista de edifícios modernos"></section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

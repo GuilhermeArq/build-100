@@ -1,0 +1,151 @@
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s ease, visibility 1s ease;
+}
+
+body:not(.is-loading) .loading-screen {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.loading-logo {
+  /* Marca desenhada manualmente, sem centralização interna automática */
+  --g-size: 240px;
+  --uia-size: 150px;
+  --subtitle-size: 50px;
+
+  position: relative;
+  width: 620px;
+  height: 305px;
+  transform: translateY(-10px);
+  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.loading-brand-row {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: var(--g-size);
+  transform-origin: left center;
+}
+
+.loading-g-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--g-size);
+  height: var(--g-size);
+  overflow: visible;
+}
+
+.loading-svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.loading-line,
+.loading-arrow {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 14;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+}
+
+.loading-arrow {
+  stroke-linecap: square;
+}
+
+.loading-uia {
+  position: absolute;
+  /* UIA desenhado manualmente: começa depois do braço da seta, não centralizado com o G */
+  left: 232px;
+  top: 108px;
+
+  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: var(--uia-size);
+  line-height: 0.82;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #000000;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 1.1s ease;
+}
+
+.loading-uia.is-visible {
+  opacity: 1;
+}
+
+.loading-subtitle {
+  position: absolute;
+  /* começa no centro-direita do G e corre como uma palavra única até o eixo final do A */
+  left: 130px;
+  top: 220px;
+
+  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif !important;
+  display: block;
+  white-space: nowrap;
+  font-size: 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: -0.055em;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 1.05s ease, transform 1.05s ease;
+}
+
+.loading-subtitle-architecture,
+.loading-subtitle-recife {
+  display: inline;
+  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: var(--subtitle-size);
+  line-height: 1;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.loading-subtitle-architecture {
+  color: #7a1f2a;
+}
+
+.loading-subtitle-recife {
+  color: #000000;
+}
+
+.loading-subtitle.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@media (max-width: 700px) {
+  .loading-logo {
+    --g-size: 180px;
+    --uia-size: 88px;
+    --subtitle-size: 37px;
+    width: 465px;
+    height: 230px;
+    transform: translateY(-6px);
+  }
+
+  .loading-uia {
+    left: 174px;
+    top: 78px;
+  }
+
+  .loading-subtitle {
+    left: 89px;
+    top: 164px;
+  }
+}

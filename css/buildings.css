@@ -1,0 +1,499 @@
+.building-page {
+  padding: 40px max(40px, 5vw);
+  background: #ffffff;
+}
+
+.building-back-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 16px;
+}
+
+.back-link {
+  color: #666666;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: #111111;
+}
+
+.building-split-layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 380px) 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.building-info-col {
+  position: sticky;
+  top: 88px;
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+  padding-right: 12px;
+  scrollbar-width: thin;
+}
+
+.building-title-header h1 {
+  margin: 0 0 6px;
+  font-size: 26px;
+  line-height: 1.25;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #111111;
+}
+
+.building-status-tag {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888888;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.building-location-tag {
+  margin: 0 0 24px;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #555555;
+  font-weight: 400;
+}
+
+.building-datasheet {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 18px 0;
+  margin-bottom: 28px;
+}
+
+.datasheet-row {
+  display: flex;
+  gap: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.datasheet-row:last-child {
+  margin-bottom: 0;
+}
+
+.datasheet-label {
+  min-width: 105px;
+  color: #888888;
+  font-weight: 300;
+}
+
+.datasheet-value {
+  color: #111111;
+  font-weight: 400;
+  flex: 1;
+}
+
+.datasheet-projetistas-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.datasheet-projetistas-list li {
+  margin: 0;
+  line-height: 1.45;
+  color: #111111;
+  font-weight: 400;
+}
+
+/* MINI MAPA JUSTIFICADO NA COLUNA */
+.building-mini-map-box {
+  width: 100%;
+  margin-top: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 180px;
+  position: relative;
+  background: #f7f7f7;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.building-mini-map-box:hover {
+  border-color: #111111;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.building-mini-map-box::after {
+  content: "abrir no mapa geral ↗";
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  z-index: 10;
+  background: rgba(17, 17, 17, 0.85);
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  padding: 4px 8px;
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.building-mini-map-box:hover::after {
+  opacity: 1;
+  background: #111111;
+}
+
+#building-mini-map {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.building-description-text p {
+  margin: 0 0 18px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #333333;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* SEÇÃO DE ETAPAS E MOMENTOS DO IMÓVEL (ESBOÇO DO USUÁRIO) */
+.building-etapas-section {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.etapas-title {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin: 0 0 16px;
+  color: #111111;
+  letter-spacing: -0.01em;
+}
+
+.etapas-accordion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.etapa-accordion-item {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.etapa-accordion-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  color: #111111;
+  list-style: none;
+  user-select: none;
+  padding: 4px 0;
+}
+
+.etapa-accordion-header::-webkit-details-marker {
+  display: none;
+}
+
+.etapa-arrow {
+  font-size: 15px;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+  display: inline-block;
+  width: 16px;
+  text-align: center;
+  color: #666666;
+}
+
+details[open] .etapa-arrow {
+  transform: rotate(90deg);
+  color: #111111;
+}
+
+.etapa-year {
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.etapa-dashed-line {
+  flex: 1;
+  border-bottom: 1px dashed #cccccc;
+  height: 1px;
+  margin: 0 8px;
+}
+
+.etapa-type {
+  font-size: 13px;
+  text-transform: lowercase;
+  color: #111111;
+  font-weight: 300;
+}
+
+.etapa-accordion-body {
+  padding: 10px 0 4px 26px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #444444;
+}
+
+.etapa-meta {
+  margin: 0 0 4px;
+  color: #222222;
+  font-weight: 400;
+}
+
+.etapa-desc {
+  margin: 0;
+  color: #555555;
+  font-weight: 300;
+}
+
+/* BOTÃO EXPORTAR PDF */
+.btn-export-pdf {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+}
+
+.watermark-print {
+  display: none;
+}
+
+/* IMPRESSÃO PDF E MARCA D'ÁGUA */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .site-header,
+  .building-back-links,
+  .btn-export-pdf,
+  .menu-toggle,
+  .loading-screen,
+  .lightbox-close,
+  .lightbox-nav {
+    display: none !important;
+  }
+
+  .watermark-print {
+    display: block !important;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    font-size: 38px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.07) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    pointer-events: none;
+    z-index: 9999;
+    text-align: center;
+    border: 4px solid rgba(0, 0, 0, 0.07);
+    padding: 18px 36px;
+    border-radius: 8px;
+  }
+
+  .building-page {
+    padding: 0 !important;
+  }
+
+  .building-split-layout {
+    display: block !important;
+  }
+
+  .building-info-col {
+    position: static !important;
+    max-height: none !important;
+    overflow: visible !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+    page-break-after: always;
+  }
+
+  .building-mini-map-box {
+    height: 220px !important;
+    border: 1px solid #999999 !important;
+    page-break-inside: avoid;
+  }
+
+  .building-media-col {
+    page-break-before: always;
+  }
+
+  .building-stack-item {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+  }
+}
+
+.building-media-col {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.building-stack-item {
+  margin: 0;
+  width: 100%;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.building-stack-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  cursor: zoom-in;
+  transition: opacity 0.25s ease;
+}
+
+.building-stack-item img:hover {
+  opacity: 0.94;
+}
+
+.building-image-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888888;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+/* Lightbox overlay */
+body.lightbox-open {
+  overflow: hidden;
+}
+
+.building-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+}
+
+.building-lightbox.is-open {
+  display: flex;
+}
+
+.lightbox-figure {
+  margin: 0;
+  max-width: 90vw;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.lightbox-image {
+  display: block;
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+}
+
+.lightbox-counter {
+  font-size: 12px;
+  color: #666666;
+}
+
+.lightbox-close,
+.lightbox-nav {
+  border: 0;
+  background: #ffffff;
+  color: #111111;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.2s ease;
+}
+
+.lightbox-close:hover,
+.lightbox-nav:hover {
+  opacity: 0.7;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 28px;
+  line-height: 1;
+  transform: translateY(-50%);
+}
+
+.lightbox-prev {
+  left: 24px;
+}
+
+.lightbox-next {
+  right: 24px;
+}
+
+@media (max-width: 920px) {
+  .building-page {
+    padding: 32px 20px;
+  }
+
+  .building-split-layout {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .building-info-col {
+    position: static;
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+}
+

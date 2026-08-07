@@ -1,0 +1,58 @@
+@media (max-width: 760px) {
+  .site-header {
+    padding: 0 22px;
+  }
+
+  .site-menu {
+    gap: 18px;
+  }
+
+  .site-menu a {
+    font-size: 12px;
+  }
+
+  .loading-g-box {
+    width: 150px;
+    height: 150px;
+  }
+
+  .loading-uia {
+    font-size: 92px;
+  }
+
+  .loading-subtitle {
+    margin-top: -14px;
+    padding-left: 10px;
+    font-size: 25px;
+  }
+
+  .logo-subtitle {
+    display: none;
+  }
+
+  .page-content {
+    padding: 36px 24px;
+  }
+
+  .map-layout {
+    padding: 0;
+  }
+
+  #guia-map {
+    border-radius: 0;
+  }
+
+  .map-title {
+    top: 16px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .building-page {
+    padding: 36px 22px;
+  }
+
+  .building-header-grid {
+    grid-template-columns: 1fr;
+  }
+}

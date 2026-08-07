@@ -1,0 +1,69 @@
+.home-page {
+  position: relative;
+  height: 100vh;
+  min-height: 520px;
+  overflow: hidden;
+  background: #111111;
+}
+
+.carousel {
+  position: absolute;
+  inset: 0;
+  opacity: 1;
+  transition: opacity 1.2s ease;
+}
+
+body.is-loading .carousel {
+  opacity: 0;
+}
+
+.carousel-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.carousel-slide.is-prev {
+  opacity: 1;
+  z-index: 1;
+}
+
+.carousel-slide.is-active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.carousel img:not(.carousel-slide) {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.home-title {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  z-index: 5;
+  color: #ffffff;
+  font-size: clamp(20px, 3vw, 36px);
+  font-weight: 300;
+  text-transform: lowercase;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  opacity: 1;
+  transition: opacity 1.2s ease;
+}
+
+body.is-loading .home-title {
+  opacity: 0;
+}
+

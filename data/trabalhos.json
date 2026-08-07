@@ -1,0 +1,76 @@
+[
+  {
+    "id": "placeholder-01",
+    "tipo": "Pesquisa",
+    "titulo": "Placeholder 01",
+    "subtitulo": "Chamada curta do trabalho acadêmico em desenvolvimento.",
+    "ano": "2026",
+    "status": "Em desenvolvimento",
+    "capa": "https://picsum.photos/seed/guia-placeholder-01/1400/900",
+    "participantes": "Participante 01; Participante 02; Participante 03.",
+    "resumo": "Participante 01; Participante 02; Participante 03.",
+    "texto": [
+      "Este é um texto placeholder para testar a estrutura definitiva da página de trabalho acadêmico. O conteúdo principal será carregado automaticamente a partir do arquivo data/trabalhos.json.",
+      "A página mantém imagem de capa, miniaturas complementares, acesso ao PDF e corpo de texto justificado, sem necessidade de criar uma nova página HTML para cada trabalho."
+    ],
+    "imagens": [
+      "https://picsum.photos/seed/guia-placeholder-01-a/900/900",
+      "https://picsum.photos/seed/guia-placeholder-01-b/900/900"
+    ],
+    "pdf": ""
+  },
+  {
+    "id": "placeholder-02",
+    "tipo": "Estudo",
+    "titulo": "Placeholder 02",
+    "subtitulo": "Espaço reservado para outro trabalho acadêmico.",
+    "ano": "2026",
+    "status": "Em revisão",
+    "capa": "https://picsum.photos/seed/guia-placeholder-02/1400/900",
+    "participantes": "Participante 01; Participante 02.",
+    "resumo": "Participante 01; Participante 02.",
+    "texto": [
+      "Texto provisório para avaliação do comportamento visual da página. A largura do texto segue a largura da imagem principal, preservando o alinhamento entre os elementos.",
+      "As imagens complementares aparecem logo abaixo da imagem de capa e podem ser ampliadas por clique."
+    ],
+    "imagens": [
+      "https://picsum.photos/seed/guia-placeholder-02-a/900/900",
+      "https://picsum.photos/seed/guia-placeholder-02-b/900/900"
+    ],
+    "pdf": ""
+  },
+  {
+    "id": "placeholder-03",
+    "tipo": "Artigo",
+    "titulo": "Placeholder 03",
+    "subtitulo": "Modelo para teste de card, página interna e integração com JSON.",
+    "ano": "2025",
+    "status": "Concluído",
+    "capa": "https://picsum.photos/seed/guia-placeholder-03/1400/900",
+    "participantes": "Participante 01.",
+    "resumo": "Participante 01.",
+    "texto": [
+      "Terceiro item de placeholder para testar a listagem dinâmica de trabalhos acadêmicos. Ao adicionar outro objeto neste JSON, a página cria automaticamente mais um card.",
+      "Este modelo também continua compatível com o gerador local admin.html."
+    ],
+    "imagens": [
+      "https://picsum.photos/seed/guia-placeholder-03-a/900/900",
+      "https://picsum.photos/seed/guia-placeholder-03-b/900/900"
+    ],
+    "pdf": ""
+  },
+  {
+    "id": "teste-do-admin",
+    "tipo": "Pesquisa",
+    "titulo": "teste do admin",
+    "subtitulo": "",
+    "ano": "",
+    "status": "",
+    "capa": "",
+    "participantes": "",
+    "resumo": "",
+    "texto": [],
+    "imagens": [],
+    "pdf": "midia/trabalhos/pdf/Anexo X - Modelo de Projeto de Pesquisa (3).docx (1).pdf"
+  }
+]

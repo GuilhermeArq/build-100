@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guia Arquitetura Recife</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="js/loader.js" defer></script>
+</head>
+
+<body class="is-loading">
+  <div class="loading-screen" aria-label="Carregando site">
+    <div class="loading-logo" id="loading-logo">
+      <div class="loading-brand-row" id="loading-brand-row">
+        <div class="loading-g-box">
+          <svg class="loading-svg" viewBox="0 0 200 200" aria-hidden="true">
+            <path
+              id="loading-path"
+              class="loading-line"
+              d="M -2500 100 L 125 100 C 180 100, 180 65, 156.569 43.431 A 80 80 0 1 0 180 100 L 100 100"
+            />
+            <g id="loading-arrow">
+              <path class="loading-arrow" d="M -18 -16 L 0 0 L -18 16" />
+            </g>
+          </svg>
+        </div>
+        <div class="loading-uia" id="loading-uia">UIA</div>
+      </div>
+      <div class="loading-subtitle" id="loading-subtitle"><span class="loading-subtitle-architecture">arquitetura</span><span class="loading-subtitle-recife">recife</span></div>
+    </div>
+  </div>
+
+  <div id="header-placeholder"></div>
+
+  <main class="home-page">
+    <div class="carousel" aria-hidden="true"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" defer></script>
+  <script src="js/mapa.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

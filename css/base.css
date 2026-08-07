@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --black: #111111;
+  --white: #ffffff;
+  --gray-light: #f7f7f7;
+  --gray-border: #e2e2e2;
+  --text-muted: #666666;
+  --text: #111111;
+  --header-height: 64px;
+  --font-main: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: var(--font-main);
+  color: var(--text);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.is-loading {
+  overflow: hidden;
+}
+
+.page-content {
+  padding: 48px max(40px, 6vw);
+}
+
+.page-content h1 {
+  margin: 0 0 20px;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+}
+
+.page-content p {
+  max-width: 720px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: #333333;
+  font-weight: 300;
+}
+
+main {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0px);
+  transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+              transform 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+              filter 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: opacity, transform, filter;
+}
+
+main.is-leaving {
+  opacity: 0;
+  transform: translateY(14px) scale(0.995);
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+main.is-entering {
+  opacity: 0;
+  transform: translateY(-14px) scale(0.995);
+  filter: blur(5px);
+  pointer-events: none;
+}
+

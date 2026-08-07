@@ -1,0 +1,382 @@
+.constructions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.constructions-header h1 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+}
+
+.constructions-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 300;
+}
+
+/* BOTÃO TOGGLE DA LINHA DO TEMPO */
+.timeline-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: 1px solid #e0e0e0;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 13px;
+  color: #555555;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.timeline-toggle-btn:hover {
+  border-color: #111111;
+  color: #111111;
+}
+
+.timeline-toggle-btn.is-active {
+  background: #111111;
+  color: #ffffff;
+  border-color: #111111;
+}
+
+.timeline-toggle-btn.is-active svg {
+  stroke: #ffffff;
+}
+
+/* CONTAINER DA LINHA DO TEMPO CRONOLÓGICA */
+.timeline-wrapper {
+  margin-bottom: 36px;
+  padding: 24px;
+  background: #fafafa;
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+}
+
+.timeline-axis {
+  position: relative;
+  width: 100%;
+  padding: 20px 0 10px;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #111111;
+  z-index: 1;
+}
+
+.timeline-ticks {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timeline-tick {
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+
+}
+
+.timeline-tick::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 14px;
+  background: #111111;
+  margin-bottom: 8px;
+  transition: height 0.2s ease, background 0.2s ease;
+}
+
+.timeline-tick span {
+  font-size: 12px;
+  color: #666666;
+  font-weight: 300;
+  transition: color 0.2s ease;
+}
+
+.timeline-tick:hover span,
+.timeline-tick.is-active span {
+  color: #111111;
+  font-weight: 600;
+}
+
+.timeline-tick:hover::before,
+.timeline-tick.is-active::before {
+  height: 20px;
+  background: #111111;
+}
+
+/* BARRA DE FILTROS FIXA (STICKY LOGO ABAIXO DO HEADER) */
+.building-filters-wrapper {
+  position: sticky;
+  top: var(--header-height, 64px);
+  z-index: 400;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px 0 18px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #e2e2e2;
+  transition: all 0.2s ease;
+}
+
+.decade-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+}
+
+.filter-label {
+  min-width: 70px;
+  font-size: 12px;
+  text-transform: lowercase;
+  color: #888888;
+  letter-spacing: 0.05em;
+}
+
+.decade-toggles {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.decade-toggle {
+  padding: 5px 14px;
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  font-size: 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  color: #555555;
+  text-transform: lowercase;
+}
+
+.decade-toggle:hover {
+  border-color: #111111;
+  color: #111111;
+}
+
+.decade-toggle.is-active {
+  background: #111111;
+  color: #ffffff;
+  border-color: #111111;
+}
+
+#constructions-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ACCORDION DE BAIRROS (DROP CARDS) */
+.bairro-accordion-item {
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+}
+
+.bairro-accordion-item:last-child {
+  border-bottom: none;
+}
+
+.bairro-accordion-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: transparent;
+  border: none;
+  padding: 16px 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: opacity 0.2s ease;
+}
+
+.bairro-accordion-header:hover {
+  opacity: 0.75;
+}
+
+.bairro-arrow {
+  font-size: 20px;
+  font-weight: 300;
+  color: #111111;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-block;
+  line-height: 1;
+}
+
+.bairro-accordion-item.is-open .bairro-arrow {
+  transform: rotate(90deg);
+}
+
+.bairro-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #111111;
+  letter-spacing: -0.01em;
+}
+
+.bairro-count {
+  font-size: 12px;
+  font-weight: 300;
+  color: #888888;
+  margin-left: auto;
+}
+
+.bairro-accordion-content {
+  display: none;
+  padding: 16px 0 36px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.bairro-accordion-item.is-open .bairro-accordion-content {
+  display: flex;
+}
+
+.street-group-section {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.street-header-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.street-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #111111;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.street-divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #111111;
+}
+
+.constructions-grid-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.construction-card {
+  display: block;
+  color: #111111;
+  text-decoration: none;
+  background: #ffffff;
+  transition: opacity 0.25s ease;
+}
+
+.construction-card:hover {
+  opacity: 0.88;
+}
+
+.construction-image {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  overflow: hidden;
+  background: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+.construction-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.construction-card:hover .construction-image img {
+  transform: scale(1.02);
+}
+
+.construction-image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  color: #888888;
+  background: #f5f5f5;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+}
+
+.construction-info {
+  padding: 2px 0 8px;
+}
+
+.construction-card-name {
+  margin: 0 0 5px;
+  font-size: 15px;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+  color: #111111;
+}
+
+.construction-card-address {
+  margin: 0 0 3px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #999999;
+  font-weight: 300;
+}
+
+.construction-card-year {
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.3;
+  color: #aaaaaa;
+  font-weight: 300;
+}
+
+@media (max-width: 640px) {
+  .constructions-grid-group {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+

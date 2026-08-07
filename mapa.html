@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa - GUIA</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+</head>
+
+<body>
+  <div id="header-placeholder"></div>
+
+  <main class="map-page">
+    <div class="map-layout">
+      <div class="map-header-bar">
+        <h1 class="map-title">mapa de construções modernas</h1>
+        
+        <!-- DROPDOWN DE FILTROS DO MAPA (DÉCADA, USO E TIPOLOGIA) -->
+        <div class="map-filter-dropdown-container">
+          <button type="button" id="map-filter-trigger" class="map-filter-btn" aria-expanded="false" aria-label="Filtrar marcadores do mapa">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+            </svg>
+            <span class="map-filter-btn-text">filtros</span>
+            <span class="map-filter-arrow">▾</span>
+          </button>
+
+          <div class="map-filter-dropdown-menu" id="map-filter-dropdown-menu" hidden>
+            <div class="map-filter-section">
+              <span class="map-filter-section-title">década:</span>
+              <div class="map-filter-pills-group" id="map-decade-toggles">
+                <button type="button" class="map-decade-toggle decade-toggle is-active" data-decade="all">todas</button>
+                <button type="button" class="map-decade-toggle decade-toggle" data-decade="1910">1910</button>
+                <button type="button" class="map-decade-toggle decade-toggle" data-decade="1920">1920</button>
+                <button type="button" class="map-decade-toggle decade-toggle" data-decade="1930">1930</button>
+                <button type="button" class="map-decade-toggle decade-toggle" data-decade="1940">1940</button>
+                <button type="button" class="map-decade-toggle decade-toggle" data-decade="1950">1950</button>
+                <button type="button" class="map-decade-toggle decade-toggle" data-decade="1960">1960</button>
+                <button type="button" class="map-decade-toggle decade-toggle" data-decade="1970">1970</button>
+                <button type="button" class="map-decade-toggle decade-toggle" data-decade="1980">1980</button>
+                <button type="button" class="map-decade-toggle decade-toggle" data-decade="1990">1990</button>
+                <button type="button" class="map-decade-toggle decade-toggle" data-decade="2000">2000</button>
+              </div>
+            </div>
+
+            <div class="map-filter-section">
+              <span class="map-filter-section-title">tipo de uso:</span>
+              <div class="map-filter-pills-group" id="map-uso-toggles">
+                <button type="button" class="map-uso-toggle decade-toggle is-active" data-uso="all">todos</button>
+                <button type="button" class="map-uso-toggle decade-toggle" data-uso="Residencial">residencial</button>
+                <button type="button" class="map-uso-toggle decade-toggle" data-uso="Comercial">comercial</button>
+                <button type="button" class="map-uso-toggle decade-toggle" data-uso="Misto">uso misto</button>
+                <button type="button" class="map-uso-toggle decade-toggle" data-uso="Institucional">institucional</button>
+              </div>
+            </div>
+
+            <div class="map-filter-section">
+              <span class="map-filter-section-title">tipologia:</span>
+              <div class="map-filter-pills-group" id="map-tipologia-toggles">
+                <button type="button" class="map-tipologia-toggle decade-toggle is-active" data-tipologia="all">todas</button>
+                <button type="button" class="map-tipologia-toggle decade-toggle" data-tipologia="Unifamiliar">unifamiliar</button>
+                <button type="button" class="map-tipologia-toggle decade-toggle" data-tipologia="Multifamiliar">multifamiliar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="guia-map" aria-label="Mapa interativo de construções modernas"></div>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="js/mapa.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

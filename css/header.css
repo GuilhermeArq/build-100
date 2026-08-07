@@ -1,0 +1,190 @@
+#header-placeholder {
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  background: #ffffff;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+/* Ocultar menu/cabeçalho durante a animação inicial */
+body.is-loading #header-placeholder {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+.site-header {
+  width: 100%;
+  height: var(--header-height);
+  background: #ffffff;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 max(30px, 4vw);
+  position: relative;
+  z-index: 500;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: opacity 0.2s ease;
+}
+
+.site-logo:hover {
+  opacity: 0.85;
+}
+
+.site-logo-image {
+  display: block;
+  height: 100%;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+
+.site-menu {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.site-menu a {
+  color: #222222;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.site-menu a:hover,
+.site-menu a.is-active {
+  opacity: 1;
+  font-weight: 500;
+}
+
+.site-menu a.is-active {
+  border-bottom: 1px solid #111111;
+  padding-bottom: 2px;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger-line {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: var(--black);
+  transition: transform 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .site-menu {
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px;
+    gap: 18px;
+    display: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  .site-menu.is-open {
+    display: flex;
+  }
+
+  .site-menu a {
+    font-size: 15px;
+  }
+}
+
+/* Transparent Header on Home Page & Map Page */
+body.is-home-page #header-placeholder,
+body.is-map-page #header-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  background: transparent;
+}
+
+body.is-home-page .site-header,
+body.is-map-page .site-header {
+  background: transparent;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+body.is-home-page .site-menu a {
+  color: #ffffff;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+  opacity: 0.9;
+}
+
+body.is-home-page .site-menu a:hover,
+body.is-home-page .site-menu a.is-active {
+  opacity: 1;
+  border-bottom-color: #ffffff;
+}
+
+body.is-home-page .hamburger-line {
+  background-color: #ffffff;
+}
+
+/* Map Page floating dark header styling */
+body.is-map-page .site-menu a {
+  color: #222222;
+  opacity: 0.85;
+  font-weight: 500;
+}
+
+body.is-map-page .site-menu a:hover,
+body.is-map-page .site-menu a.is-active {
+  opacity: 1;
+  border-bottom-color: #111111;
+}
+
+body.is-map-page .hamburger-line {
+  background-color: #111111;
+}
+
+/* Dynamic Logo Color Adaptation per Page */
+body:not(.is-home-page) .site-logo-image {
+  filter: brightness(0);
+  transition: filter 0.2s ease;
+}
+
+body.is-home-page .site-logo-image {
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.6));
+  transition: filter 0.2s ease;
+}
+
+
+

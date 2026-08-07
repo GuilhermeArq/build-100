@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel Admin - GUIA</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="header-placeholder"></div>
+
+  <main class="page-content admin-page">
+    <section class="academic-intro admin-header-section">
+      <div class="admin-header-top">
+        <div>
+          <span class="section-kicker">Gerenciador de Conteúdo</span>
+          <h1>Painel de Controle do TCC</h1>
+          <p>Adicione, edite e remova edifícios, trabalhos acadêmicos e imagens do carrossel de forma direta. Todos os arquivos são organizados na pasta unificada <strong>midia/</strong> e salvos com 1 clique.</p>
+        </div>
+        <div class="admin-global-actions">
+          <button id="btn-save-file" type="button" class="admin-button success-btn">
+            💾 Salvar Arquivo JSON
+          </button>
+          <button id="btn-import-file" type="button" class="admin-button secondary">
+            📥 Importar JSON
+          </button>
+          <input type="file" id="import-file-input" accept=".json" style="display: none;">
+        </div>
+      </div>
+    </section>
+
+    <nav class="admin-tabs" aria-label="Tipo de cadastro">
+      <button class="admin-tab is-active" type="button" data-admin-tab="edificios">🏢 Edifícios</button>
+      <button class="admin-tab" type="button" data-admin-tab="trabalhos">📚 Trabalhos Acadêmicos</button>
+      <button class="admin-tab" type="button" data-admin-tab="carrossel">🖼️ Carrossel Home</button>
+    </nav>
+
+    <!-- BANNER DE NOTIFICAÇÃO -->
+    <div id="admin-toast" class="admin-toast" hidden></div>
+
+    <!-- PAINEL PRINCIPAL GRID MASTER-DETAIL -->
+    <div class="admin-dashboard-grid">
+      <!-- BARRA LATERAL: LISTAGEM DOS ITENS -->
+      <aside class="admin-sidebar-list">
+        <div class="admin-sidebar-header">
+          <input type="text" id="admin-search-input" placeholder="🔍 Buscar item..." class="admin-search-bar">
+          <button id="btn-add-new" type="button" class="admin-button add-btn">+ Adicionar Novo</button>
+        </div>
+        <div id="admin-items-list" class="admin-items-container">
+          <p class="loading-message">Carregando itens cadastrados...</p>
+        </div>
+      </aside>
+
+      <!-- FORMULÁRIO DE EDIÇÃO E CADASTRO -->
+      <section class="admin-editor-panel">
+        <!-- FORMULÁRIO DE EDIFÍCIOS -->
+        <form id="building-editor-form" class="admin-editor-form admin-panel is-active" data-admin-panel="edificios">
+          <div class="editor-header">
+            <h2 id="building-form-title">Novo Edifício</h2>
+            <span class="editor-badge" id="building-id-badge">ID: novo</span>
+          </div>
+
+          <input type="hidden" name="editing_id" value="">
+
+          <div class="admin-field-group">
+            <h3>Identificação Principal</h3>
+            <div class="admin-field-grid">
+              <label>
+                Nome da Edificação *
+                <input type="text" name="nome" placeholder="Ex.: Edifício Pirapama" required>
+              </label>
+
+              <label>
+                Identificador Único (ID / Slug)
+                <input type="text" name="id" placeholder="Ex.: pirapama">
+              </label>
+            </div>
+          </div>
+
+          <div class="admin-field-group">
+            <h3>Projetistas e Ano</h3>
+            <label style="display: block; margin-bottom: 8px; font-weight: 500;">
+              Projetista(s) Responsável(eis)
+              <span class="admin-help" style="display: block; margin-bottom: 6px;">Adicione um ou mais projetistas e marque como Arquitetura (Arq.) ou Engenharia (Eng.).</span>
+            </label>
+            <div id="building-projetistas-list" style="margin-bottom: 10px;"></div>
+            <button type="button" id="btn-add-projetista" class="admin-button secondary" style="margin-bottom: 16px; font-size: 13px;">+ Adicionar Projetista</button>
+            <input type="hidden" name="arquiteto" value="">
+
+            <div class="admin-field-grid">
+              <label>
+                Ano de Construção / Projeto
+                <input type="text" name="ano" placeholder="Ex.: 1963 ou s.d.">
+              </label>
+            </div>
+          </div>
+
+          <div class="admin-field-group">
+            <h3>Parâmetros do Imóvel (Uso e Tipologia)</h3>
+            <div class="admin-field-grid">
+              <label class="admin-label-col">
+                <span class="label-text">Tipo de Uso *</span>
+                <select name="uso" id="building-uso-select" required>
+                  <option value="Residencial">Residencial</option>
+                  <option value="Comercial">Comercial</option>
+                  <option value="Misto">Uso Misto</option>
+                  <option value="Institucional">Institucional</option>
+                </select>
+              </label>
+
+              <label class="admin-label-col">
+                <span class="label-text">Tipologia Residencial *</span>
+                <select name="tipologia" id="building-tipologia-select" required>
+                  <option value="Multifamiliar">Multifamiliar</option>
+                  <option value="Unifamiliar">Unifamiliar</option>
+                  <option value="Não se aplica">Não se aplica (Comercial / Institucional)</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="admin-field-group">
+            <h3>Localização e Coordenadas</h3>
+            <div class="admin-field-grid admin-field-grid-3">
+              <label class="admin-label-col">
+                <span class="label-text">Logradouro (Rua / Avenida) *</span>
+                <input type="text" name="logradouro" id="building-logradouro-input" list="logradouros-datalist" placeholder="Digite ou selecione o logradouro..." required autocomplete="off">
+                <datalist id="logradouros-datalist">
+                  <!-- BOA VISTA -->
+                  <option value="1ª Travessa Bulhões Marques">
+                  <option value="Avenida Conde da Boa Vista">
+                  <option value="Avenida Governador Agamenon Magalhães">
+                  <option value="Avenida Governador Carlos de Lima Cavalcanti">
+                  <option value="Avenida João de Barros">
+                  <option value="Avenida Lins Petit">
+                  <option value="Avenida Manoel Borba">
+                  <option value="Avenida Montevidéu">
+                  <option value="Beco São Gonçalo">
+                  <option value="Largo da Santa Cruz">
+                  <option value="Praça Doutor Adolfo Cirne">
+                  <option value="Praça Machado de Assis">
+                  <option value="Praça Maciel Pinheiro">
+                  <option value="Praça Odília Freire dos Santos">
+                  <option value="Praça Parque Amorim">
+                  <option value="Rua Artur Orlando">
+                  <option value="Rua Barão de São Borja">
+                  <option value="Rua Bispo Cardoso Ayres">
+                  <option value="Rua Bulhões Marques">
+                  <option value="Rua Cambará">
+                  <option value="Rua Capitão Rui Lucena">
+                  <option value="Rua Carlos Porto Carreiro">
+                  <option value="Rua Cassimiro de Abreu">
+                  <option value="Rua Clóvis da Silveira Barros">
+                  <option value="Rua Clube Náutico Capibaribe">
+                  <option value="Rua Corredor do Bispo">
+                  <option value="Rua da Alegria">
+                  <option value="Rua da Aurora">
+                  <option value="Rua da Conceição">
+                  <option value="Rua da Glória">
+                  <option value="Rua da Matriz">
+                  <option value="Rua da Santa Cruz">
+                  <option value="Rua da Saudade">
+                  <option value="Rua da Soledade">
+                  <option value="Rua da União">
+                  <option value="Rua das Fronteiras">
+                  <option value="Rua das Ninfas">
+                  <option value="Rua Desembargador Cunha Barreto">
+                  <option value="Rua Desembargador Roderick Galvão">
+                  <option value="Rua do Aragão">
+                  <option value="Rua do Giriquiti">
+                  <option value="Rua do Hospício">
+                  <option value="Rua do Jasmim">
+                  <option value="Rua do Paissandú">
+                  <option value="Rua do Príncipe">
+                  <option value="Rua do Progresso">
+                  <option value="Rua do Riachuelo">
+                  <option value="Rua do Sossego">
+                  <option value="Rua do Veras">
+                  <option value="Rua Dom Bosco">
+                  <option value="Rua Dom Carlos Coelho">
+                  <option value="Rua Domingos Sávio">
+                  <option value="Rua dos Coelhos">
+                  <option value="Rua dos Médicis">
+                  <option value="Rua Doutor Bandeira Filho">
+                  <option value="Rua Doutor José Mariano">
+                  <option value="Rua Doutor Leopoldo Lins">
+                  <option value="Rua Doutor Sebastião Lins">
+                  <option value="Rua Engenho Flor da Ilha">
+                  <option value="Rua Fiscal Inaldo Xavier de S. Santos">
+                  <option value="Rua General Joaquim Inácio">
+                  <option value="Rua Gervásio Pires">
+                  <option value="Rua Gonçalves Maia">
+                  <option value="Rua Henrique Dias">
+                  <option value="Rua Hermínia Lins">
+                  <option value="Rua Imperatriz Tereza Cristina">
+                  <option value="Rua Jaguapitã">
+                  <option value="Rua João Fernandes Vieira">
+                  <option value="Rua João Suassuna">
+                  <option value="Rua Joaquim Felipe">
+                  <option value="Rua Jornalista Edmundo Bittencourt">
+                  <option value="Rua José de Alencar">
+                  <option value="Rua Leão Coroado">
+                  <option value="Rua Luiz Barbalho">
+                  <option value="Rua Mário Domingues">
+                  <option value="Rua Marques Amorim">
+                  <option value="Rua Martins Júnior">
+                  <option value="Rua Miguel Couto">
+                  <option value="Rua Monte Castelo">
+                  <option value="Rua Oswaldo Cruz">
+                  <option value="Rua Padópolis">
+                  <option value="Rua Padre Inglês">
+                  <option value="Rua Padre João Ribeiro">
+                  <option value="Rua Porto Rico">
+                  <option value="Rua Professor Cândido Duarte">
+                  <option value="Rua Rosário da Boa Vista">
+                  <option value="Rua Samuel Pinto">
+                  <option value="Rua São Gonçalo">
+                  <option value="Rua Sete de Setembro">
+                  <option value="Rua Silva Ramos">
+                  <option value="Rua Tabira">
+                  <option value="Rua Velha">
+                  <option value="Rua Visconde de Goiana">
+                  <option value="Rua Visconde de Goiânia">
+                  <option value="Travessa Lins Petit">
+                  <option value="Travessa Pedro Albuquerque">
+                  <option value="Travessa Visconde de Goiana">
+                  <option value="Vila Sete de Setembro">
+
+                  <!-- SOLEDADE -->
+                  <option value="Avenida Oliveira Lima">
+                  <option value="Praça Oswaldo Cruz">
+                  <option value="Rua Adhelmar de Oliveira">
+                  <option value="Rua Estudante">
+                  <option value="Rua Nunes Machado">
+                </datalist>
+              </label>
+
+              <label class="admin-label-col">
+                <span class="label-text">Bairro *</span>
+                <select name="bairro" id="building-bairro-select" required>
+                  <option value="">Selecione o bairro...</option>
+                  <option value="Boa Vista">Boa Vista</option>
+                  <option value="Soledade">Soledade</option>
+                </select>
+              </label>
+
+              <label class="admin-label-col">
+                <span class="label-text">Número do Imóvel *</span>
+                <input type="text" name="numero" id="building-number-input" placeholder="Ex.: 480" required>
+              </label>
+            </div>
+
+            <input type="hidden" name="endereco" id="building-endereco-hidden" value="">
+
+            <div class="admin-field-grid">
+              <label>
+                Latitude (Mapa)
+                <input type="text" name="lat" placeholder="Ex.: -8.05831">
+              </label>
+
+              <label>
+                Longitude (Mapa)
+                <input type="text" name="lng" placeholder="Ex.: -34.88696">
+              </label>
+            </div>
+          </div>
+
+          <div class="admin-field-group">
+            <h3>Imagens e Fotos de Plantas</h3>
+            <label class="file-drop-label">
+              Imagem de Capa (Principal)
+              <span class="admin-help">Pasta padrão: midia/edificios/capas/</span>
+              <input type="text" name="imagem" placeholder="Caminho ex: midia/edificios/capas/teste 1.jpg">
+              <input type="file" name="capaArquivo" accept="image/*" data-path-target="imagem" data-base-path="midia/edificios/capas">
+              <span class="file-drop-zone" data-for="capaArquivo">soltar ou selecionar imagem de capa</span>
+            </label>
+
+            <label class="file-drop-label">
+              Fotos Gerais e Plantas (Múltiplas)
+              <span class="admin-help">Insira um caminho de imagem por linha (midia/edificios/fotos/)</span>
+              <textarea name="fotos" rows="4" placeholder="midia/edificios/fotos/foto1.jpg&#10;midia/edificios/fotos/foto2.jpg"></textarea>
+              <input type="file" name="fotosArquivos" accept="image/*" multiple data-path-target="fotos" data-base-path="midia/edificios/fotos">
+              <span class="file-drop-zone" data-for="fotosArquivos">soltar fotos complementares aqui</span>
+            </label>
+          </div>
+
+          <div class="admin-field-group">
+            <h3>Descrição e Histórico</h3>
+            <label>
+              Texto Explicativo
+              <span class="admin-help">Separe os parágrafos com uma linha em branco.</span>
+              <textarea name="texto" rows="8" placeholder="Escreva a descrição do edifício..."></textarea>
+            </label>
+          </div>
+
+          <div class="admin-field-group">
+            <h3>Etapas e Reformas na Prefeitura</h3>
+            <label class="admin-checkbox-label" style="display: flex; align-items: center; gap: 8px; font-weight: 500; margin-bottom: 12px; cursor: pointer;">
+              <input type="checkbox" name="temMultiplosProjetos" id="chk-multi-projetos" style="width: auto;">
+              Imóvel possui mais de um projeto na prefeitura (diferentes momentos, reformas ou revalidações)
+            </label>
+
+            <div id="building-etapas-section" style="display: none; padding-top: 8px; border-top: 1px dashed #e2e2e2; margin-top: 12px;">
+              <p class="admin-help" style="margin-bottom: 12px;">Cadastre cada momento identificado nos arquivos da prefeitura (reforma, revalidação, ampliação, etc.).</p>
+              <div id="building-etapas-list"></div>
+              <button type="button" id="btn-add-etapa" class="admin-button secondary" style="margin-top: 10px; font-size: 13px;">+ Adicionar Etapa / Reforma</button>
+            </div>
+          </div>
+
+          <div class="editor-actions">
+            <button type="submit" class="admin-button success-btn">✓ Salvar Edifício na Lista</button>
+            <button type="button" id="btn-cancel-building" class="admin-button secondary">Limpar Formulário</button>
+          </div>
+        </form>
+
+        <!-- FORMULÁRIO DE TRABALHOS ACADÊMICOS -->
+        <form id="academic-editor-form" class="admin-editor-form admin-panel" data-admin-panel="trabalhos">
+          <div class="editor-header">
+            <h2 id="academic-form-title">Novo Trabalho Acadêmico</h2>
+            <span class="editor-badge" id="academic-id-badge">ID: novo</span>
+          </div>
+
+          <input type="hidden" name="editing_id" value="">
+
+          <div class="admin-field-group">
+            <h3>Identificação Principal</h3>
+            <div class="admin-field-grid">
+              <label>
+                Título do Trabalho *
+                <input type="text" name="titulo" placeholder="Ex.: Modernismo Incógnito" required>
+              </label>
+
+              <label>
+                Identificador Único (ID / Slug)
+                <input type="text" name="id" placeholder="Ex.: modernismo-incognito">
+              </label>
+            </div>
+
+            <div class="admin-field-grid">
+              <label>
+                Tipo
+                <input type="text" name="tipo" placeholder="Ex.: Pesquisa, Artigo, TCC" value="Pesquisa">
+              </label>
+
+              <label>
+                Ano
+                <input type="text" name="ano" placeholder="Ex.: 2026">
+              </label>
+            </div>
+
+            <div class="admin-field-grid">
+              <label>
+                Status
+                <input type="text" name="status" placeholder="Ex.: Em desenvolvimento, Concluído">
+              </label>
+
+              <label>
+                Subtítulo / Chamada Curta
+                <input type="text" name="subtitulo" placeholder="Frase curta para aparecer nos cards">
+              </label>
+            </div>
+
+            <label>
+              Autores / Participantes
+              <input type="text" name="participantes" placeholder="Ex.: Participante 01; Participante 02.">
+            </label>
+          </div>
+
+          <div class="admin-field-group">
+            <h3>Documentos (PDF) e Imagens</h3>
+            <label class="file-drop-label">
+              Arquivo PDF da Pesquisa
+              <span class="admin-help">Pasta padrão: midia/trabalhos/pdf/</span>
+              <input type="text" name="pdf" placeholder="Caminho ex: midia/trabalhos/pdf/trabalho.pdf">
+              <input type="file" name="pdfArquivo" accept="application/pdf,.pdf" data-path-target="pdf" data-base-path="midia/trabalhos/pdf">
+              <span class="file-drop-zone" data-for="pdfArquivo">soltar ou selecionar arquivo PDF</span>
+            </label>
+
+            <label class="file-drop-label">
+              Imagem de Capa (Card)
+              <span class="admin-help">Pasta padrão: midia/trabalhos/capas/</span>
+              <input type="text" name="capa" placeholder="Caminho ex: midia/trabalhos/capas/capa1.jpg">
+              <input type="file" name="capaArquivo" accept="image/*" data-path-target="capa" data-base-path="midia/trabalhos/capas">
+              <span class="file-drop-zone" data-for="capaArquivo">soltar imagem de capa aqui</span>
+            </label>
+
+            <label class="file-drop-label">
+              Imagens Complementares / Pranchas
+              <span class="admin-help">Insira um caminho de imagem por linha (midia/trabalhos/imagens/)</span>
+              <textarea name="imagens" rows="4" placeholder="midia/trabalhos/imagens/figura1.jpg"></textarea>
+              <input type="file" name="imagensArquivos" accept="image/*" multiple data-path-target="imagens" data-base-path="midia/trabalhos/imagens">
+              <span class="file-drop-zone" data-for="imagensArquivos">soltar imagens complementares</span>
+            </label>
+          </div>
+
+          <div class="admin-field-group">
+            <h3>Resumo e Conteúdo</h3>
+            <label>
+              Texto / Resumo Acadêmico
+              <span class="admin-help">Separe os parágrafos com uma linha em branco.</span>
+              <textarea name="texto" rows="8" placeholder="Escreva o resumo do trabalho..."></textarea>
+            </label>
+          </div>
+
+          <div class="editor-actions">
+            <button type="submit" class="admin-button success-btn">✓ Salvar Trabalho na Lista</button>
+            <button type="button" id="btn-cancel-academic" class="admin-button secondary">Limpar Formulário</button>
+          </div>
+        </form>
+
+        <!-- FORMULÁRIO DE CARROSSEL HOME -->
+        <form id="carousel-editor-form" class="admin-editor-form admin-panel" data-admin-panel="carrossel">
+          <div class="editor-header">
+            <h2>Imagens do Carrossel da Página Inicial</h2>
+            <span class="editor-badge">data/carrossel.json</span>
+          </div>
+
+          <div class="admin-field-group">
+            <h3>Gerenciar Imagens do Carrossel</h3>
+            <p class="admin-help" style="font-size: 13px; margin-bottom: 16px;">
+              Todas as imagens listadas abaixo aparecem no carrossel de abertura da tela inicial.
+              Adicione fotos colando seus arquivos na pasta <strong>midia/carrossel/</strong> ou soltando-as no assistente abaixo.
+            </p>
+
+            <label class="file-drop-label">
+              Lista de Imagens (uma por linha)
+              <span class="admin-help">Pasta padrão: midia/carrossel/</span>
+              <textarea name="carrosselImagens" rows="8" placeholder="midia/carrossel/Boa Vista 01.jpg&#10;midia/carrossel/Boa vista 02.png"></textarea>
+              <input type="file" name="carrosselArquivos" accept="image/*" multiple data-path-target="carrosselImagens" data-base-path="midia/carrossel">
+              <span class="file-drop-zone" data-for="carrosselArquivos">soltar novas imagens do carrossel aqui</span>
+            </label>
+          </div>
+
+          <div class="editor-actions">
+            <button type="submit" class="admin-button success-btn">✓ Salvar Carrossel na Lista</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
