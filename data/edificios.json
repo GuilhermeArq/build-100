@@ -1,2387 +1,2253 @@
-﻿[
-    {
-        "id":  "av-agamenon-45",
-        "nome":  "Edifício Av. Agamenon 45",
-        "endereco":  "Avenida Governador Agamenon Magalhães, 45",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Delfim Amorim"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Heitor Maia Neto"
-                            }
-                        ],
-        "ano":  "1969",
-        "lat":  -8.05125,
-        "lng":  -34.8961,
-        "pagina":  "edificio.html?id=av-agamenon-45",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Agamenon 45, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1969",
-                           "tipo":  "alteração",
-                           "projetistas":  "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
-                           "descricao":  "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1969."
-                       }
-                   ],
-        "logradouro":  "Avenida Governador Agamenon Magalhães",
-        "numero":  "45",
-        "uso":  "Residencial",
-        "tipologia":  "Unifamiliar"
-    },
-    {
-        "id":  "av-agamenon-55",
-        "nome":  "Edifício Av. Agamenon 55",
-        "endereco":  "Avenida Governador Agamenon Magalhães, 55",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Delfim Amorim",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Delfim Amorim"
-                            }
-                        ],
-        "ano":  "1960",
-        "lat":  -8.0514,
-        "lng":  -34.89615,
-        "pagina":  "edificio.html?id=av-agamenon-55",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Agamenon 55, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1960",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Delfim Amorim",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1960."
-                       }
-                   ],
-        "logradouro":  "Avenida Governador Agamenon Magalhães",
-        "numero":  "55",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-agamenon-73",
-        "nome":  "Edifício Av. Agamenon 73",
-        "endereco":  "Avenida Governador Agamenon Magalhães, 73",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Hugo Marques",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Hugo Marques"
-                            }
-                        ],
-        "ano":  "1961",
-        "lat":  -8.05165,
-        "lng":  -34.8962,
-        "pagina":  "edificio.html?id=av-agamenon-73",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Agamenon 73, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1961",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Hugo Marques",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1961."
-                       }
-                   ],
-        "logradouro":  "Avenida Governador Agamenon Magalhães",
-        "numero":  "73",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-joao-de-barros-903",
-        "nome":  "Edifício Av. João de barros 903",
-        "endereco":  "Outros Logradouros, 903",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Vital Pessoa de Melo",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Vital Pessoa de Melo"
-                            }
-                        ],
-        "ano":  "1985",
-        "lat":  -8.0566,
-        "lng":  -34.8833,
-        "pagina":  "edificio.html?id=av-joao-de-barros-903",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. joão de barros 903, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1985",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Vital Pessoa de Melo",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1985."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "903",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-dr-leopoldo-lins-217",
-        "nome":  "Edifício Rua Dr. Leopoldo Lins 217",
-        "endereco":  "Rua Doutor Leopoldo Lins, 217",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Emmanuel Lins, Arq. Alex Lomachinsky",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Emmanuel Lins"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Alex Lomachinsky"
-                            }
-                        ],
-        "ano":  "1974",
-        "lat":  -8.0611,
-        "lng":  -34.8922,
-        "pagina":  "edificio.html?id=rua-dr-leopoldo-lins-217",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Dr. Leopoldo Lins 217, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1974",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Emmanuel Lins, Arq. Alex Lomachinsky",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1974."
-                       }
-                   ],
-        "logradouro":  "Rua Doutor Leopoldo Lins",
-        "numero":  "217",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-henrique-dias-161",
-        "nome":  "Edifício Rua Henrique Dias 161",
-        "endereco":  "Rua Henrique Dias, 161",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Luiz Coimbra",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Luiz Coimbra"
-                            }
-                        ],
-        "ano":  "1960",
-        "lat":  -8.0613,
-        "lng":  -34.8931,
-        "pagina":  "edificio.html?id=rua-henrique-dias-161",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Henrique Dias 161, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1960",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Luiz Coimbra",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1960."
-                       }
-                   ],
-        "logradouro":  "Rua Henrique Dias",
-        "numero":  "161",
-        "uso":  "Residencial",
-        "tipologia":  "Unifamiliar"
-    },
-    {
-        "id":  "rua-dr-leopoldo-lins-237",
-        "nome":  "Edifício Rua Dr. Leopoldo Lins 237",
-        "endereco":  "Rua Doutor Leopoldo Lins, 237",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Rogerio Silvio dos Santos",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Rogerio Silvio dos Santos"
-                            }
-                        ],
-        "ano":  "1967",
-        "lat":  -8.06125,
-        "lng":  -34.8924,
-        "pagina":  "edificio.html?id=rua-dr-leopoldo-lins-237",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Dr. Leopoldo Lins 237, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1967",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Rogerio Silvio dos Santos",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1967."
-                       }
-                   ],
-        "logradouro":  "Rua Doutor Leopoldo Lins",
-        "numero":  "237",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-monte-castelo-87",
-        "nome":  "Edifício Rua Monte Castelo 87",
-        "endereco":  "Rua Monte Castelo, 87",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Hugo Marques",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Hugo Marques"
-                            }
-                        ],
-        "ano":  "1961",
-        "lat":  -8.0621,
-        "lng":  -34.8951,
-        "pagina":  "edificio.html?id=rua-monte-castelo-87",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Monte Castelo 87, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1961",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Hugo Marques",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1961."
-                       }
-                   ],
-        "logradouro":  "Rua Monte Castelo",
-        "numero":  "87",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-monte-castelo-118",
-        "nome":  "Edifício Rua Monte Castelo 118",
-        "endereco":  "Rua Monte Castelo, 118",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Waldecy Fernandes Pinto, Arq. Renato Torres, Arq. Antonio P. Didier",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Waldecy Fernandes Pinto"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Renato Torres"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Antonio P. Didier"
-                            }
-                        ],
-        "ano":  "1969",
-        "lat":  -8.0623,
-        "lng":  -34.8954,
-        "pagina":  "edificio.html?id=rua-monte-castelo-118",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Monte Castelo 118, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1969",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Waldecy Fernandes Pinto, Arq. Renato Torres, Arq. Antonio P. Didier",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1969."
-                       }
-                   ],
-        "logradouro":  "Rua Monte Castelo",
-        "numero":  "118",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-conde-da-boa-vista-1016",
-        "nome":  "Edifício módulo",
-        "endereco":  "Avenida Conde da Boa Vista, 1016",
-        "bairro":  "Soledade",
-        "arquiteto":  "Arq. Oscar Uchôa, Arq. Rogerio Silvio dos Santos",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Oscar Uchôa"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Rogerio Silvio dos Santos"
-                            }
-                        ],
-        "ano":  "1970",
-        "lat":  -8.05831,
-        "lng":  -34.88696,
-        "pagina":  "edificio.html?id=av-conde-da-boa-vista-1016",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 1016, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1970",
-                           "tipo":  "locação",
-                           "projetistas":  "Arq. Oscar Uchôa, Arq. Rogerio Silvio dos Santos",
-                           "descricao":  "Projeto de locação aprovado na Prefeitura da Cidade do Recife em 1970."
-                       },
-                       {
-                           "ano":  "1972",
-                           "tipo":  "alteração",
-                           "projetistas":  "Arq. Oscar Uchôa, Arq. Rogerio Silvio dos Santos",
-                           "descricao":  "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1972."
-                       }
-                   ],
-        "logradouro":  "Avenida Conde da Boa Vista",
-        "numero":  "1016",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-conde-da-boa-vista-150",
-        "nome":  "Edifício Av. Conde da Boa Vista 150",
-        "endereco":  "Avenida Conde da Boa Vista, 150",
-        "bairro":  "Soledade",
-        "arquiteto":  "Arq. Mario Petrônio Dowsley",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Mario Petrônio Dowsley"
-                            }
-                        ],
-        "ano":  "1973",
-        "lat":  -8.0601,
-        "lng":  -34.8812,
-        "pagina":  "edificio.html?id=av-conde-da-boa-vista-150",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 150, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1973",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Mario Petrônio Dowsley",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1973."
-                       }
-                   ],
-        "logradouro":  "Avenida Conde da Boa Vista",
-        "numero":  "150",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-conde-da-boa-vista-569",
-        "nome":  "Edifício Rostand",
-        "endereco":  "Avenida Conde da Boa Vista, 569",
-        "bairro":  "Soledade",
-        "arquiteto":  "Arq. Jorge Martins Júnior, Arq. Glauco Campelo",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Jorge Martins Júnior"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Glauco Campelo"
-                            }
-                        ],
-        "ano":  "1962",
-        "lat":  -8.0591,
-        "lng":  -34.8845,
-        "pagina":  "edificio.html?id=av-conde-da-boa-vista-569",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 569, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1962",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Jorge Martins Júnior, Arq. Glauco Campelo",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1962."
-                       },
-                       {
-                           "ano":  "1969",
-                           "tipo":  "alteração",
-                           "projetistas":  "Arq. Jorge Martins Júnior, Arq. Glauco Campelo",
-                           "descricao":  "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1969."
-                       }
-                   ],
-        "logradouro":  "Avenida Conde da Boa Vista",
-        "numero":  "569",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-conde-da-boa-vista-1295",
-        "nome":  "Edifício Av. Conde da Boa Vista 1295",
-        "endereco":  "Avenida Conde da Boa Vista, 1295",
-        "bairro":  "Soledade",
-        "arquiteto":  "Arq. Paulo Vaz de Oliveira",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Paulo Vaz de Oliveira"
-                            }
-                        ],
-        "ano":  "1968",
-        "lat":  -8.0581,
-        "lng":  -34.8885,
-        "pagina":  "edificio.html?id=av-conde-da-boa-vista-1295",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 1295, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1968",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Paulo Vaz de Oliveira",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1968."
-                       },
-                       {
-                           "ano":  "1970",
-                           "tipo":  "alteração",
-                           "projetistas":  "Arq. Paulo Vaz de Oliveira",
-                           "descricao":  "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1970."
-                       }
-                   ],
-        "logradouro":  "Avenida Conde da Boa Vista",
-        "numero":  "1295",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-conde-da-boa-vista-1317",
-        "nome":  "Edifício São Luiz",
-        "endereco":  "Avenida Conde da Boa Vista, 1317",
-        "bairro":  "Soledade",
-        "arquiteto":  "Eng. Jonio Santos Pereira de Lemos",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Eng.",
-                                "nome":  "Jonio Santos Pereira de Lemos"
-                            }
-                        ],
-        "ano":  "1957",
-        "lat":  -8.058,
-        "lng":  -34.8889,
-        "pagina":  "edificio.html?id=av-conde-da-boa-vista-1317",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 1317, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1957",
-                           "tipo":  "construção",
-                           "projetistas":  "Eng. Jonio Santos Pereira de Lemos",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1957."
-                       }
-                   ],
-        "logradouro":  "Avenida Conde da Boa Vista",
-        "numero":  "1317",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-joao-de-barros-201",
-        "nome":  "Edifício Forte Orange",
-        "endereco":  "Outros Logradouros, 201",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Vital Pessoa de Melo",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Vital Pessoa de Melo"
-                            }
-                        ],
-        "ano":  "1980",
-        "lat":  -8.0593,
-        "lng":  -34.8855,
-        "pagina":  "edificio.html?id=av-joao-de-barros-201",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. joão de Barros 201, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1980",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Vital Pessoa de Melo",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1980."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "201",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-joao-de-barros-633",
-        "nome":  "Edifício Garanhuns",
-        "endereco":  "Outros Logradouros, 633",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Emerson A. Pinheiro, Arq. André de Morais Marques",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Emerson A. Pinheiro"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "André de Morais Marques"
-                            }
-                        ],
-        "ano":  "1968",
-        "lat":  -8.0598,
-        "lng":  -34.883,
-        "pagina":  "edificio.html?id=av-joao-de-barros-633",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. joão de Barros 633, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1968",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Emerson A. Pinheiro, Arq. André de Morais Marques",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1968."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "633",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-samuel-pinto-54",
-        "nome":  "Edifício Tamoio",
-        "endereco":  "Rua Samuel Pinto, 54",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Hugo Marques",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Hugo Marques"
-                            }
-                        ],
-        "ano":  "1959",
-        "lat":  -8.0601,
-        "lng":  -34.8968,
-        "pagina":  "edificio.html?id=rua-samuel-pinto-54",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Samuel Pinto 54, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1959",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Hugo Marques",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1959."
-                       }
-                   ],
-        "logradouro":  "Rua Samuel Pinto",
-        "numero":  "54",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-samuel-pinto-77",
-        "nome":  "Edifício Rua Samuel Pinto 77",
-        "endereco":  "Rua Samuel Pinto, 77",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Hugo Marques",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Hugo Marques"
-                            }
-                        ],
-        "ano":  "1965",
-        "lat":  -8.06025,
-        "lng":  -34.8971,
-        "pagina":  "edificio.html?id=rua-samuel-pinto-77",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Samuel Pinto 77, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1965",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Hugo Marques",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1965."
-                       }
-                   ],
-        "logradouro":  "Rua Samuel Pinto",
-        "numero":  "77",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-oliveira-lima-999",
-        "nome":  "Edifício Av. Oliveira Lima 999",
-        "endereco":  "Avenida Oliveira Lima, 999",
-        "bairro":  "Soledade",
-        "arquiteto":  "Autor a confirmar",
-        "projetistas":  [
-
-                        ],
-        "ano":  "1973",
-        "lat":  -8.0672,
-        "lng":  -34.88715,
-        "pagina":  "edificio.html?id=av-oliveira-lima-999",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Oliveira Lima 999, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1973",
-                           "tipo":  "acrescimo",
-                           "projetistas":  "Autor a confirmar",
-                           "descricao":  "Projeto de acrescimo aprovado na Prefeitura da Cidade do Recife em 1973."
-                       },
-                       {
-                           "ano":  "1981",
-                           "tipo":  "acrescimo",
-                           "projetistas":  "Autor a confirmar",
-                           "descricao":  "Projeto de acrescimo aprovado na Prefeitura da Cidade do Recife em 1981."
-                       },
-                       {
-                           "ano":  "1984",
-                           "tipo":  "reforma",
-                           "projetistas":  "Autor a confirmar",
-                           "descricao":  "Projeto de reforma aprovado na Prefeitura da Cidade do Recife em 1984."
-                       },
-                       {
-                           "ano":  "1992",
-                           "tipo":  "acrescimo",
-                           "projetistas":  "Autor a confirmar",
-                           "descricao":  "Projeto de acrescimo aprovado na Prefeitura da Cidade do Recife em 1992."
-                       }
-                   ],
-        "logradouro":  "Avenida Oliveira Lima",
-        "numero":  "999",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-oliveira-lima-997",
-        "nome":  "Edifício Av. Oliveira Lima 997",
-        "endereco":  "Avenida Oliveira Lima, 997",
-        "bairro":  "Soledade",
-        "arquiteto":  "Arq. Helio Moreira da Silva",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Helio Moreira da Silva"
-                            }
-                        ],
-        "ano":  "1967",
-        "lat":  -8.0671,
-        "lng":  -34.8871,
-        "pagina":  "edificio.html?id=av-oliveira-lima-997",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Oliveira Lima 997, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1967",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Helio Moreira da Silva",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1967."
-                       }
-                   ],
-        "logradouro":  "Avenida Oliveira Lima",
-        "numero":  "997",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-joao-fernandes-vieira-320",
-        "nome":  "Edifício Rua João Fernandes Vieira 320",
-        "endereco":  "Outros Logradouros, 320",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Autor a confirmar",
-        "projetistas":  [
-
-                        ],
-        "ano":  "1956",
-        "lat":  -8.0569,
-        "lng":  -34.8833,
-        "pagina":  "edificio.html?id=rua-joao-fernandes-vieira-320",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua joão Fernandes Vieira 320, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1956",
-                           "tipo":  "reforma",
-                           "projetistas":  "Autor a confirmar",
-                           "descricao":  "Projeto de reforma aprovado na Prefeitura da Cidade do Recife em 1956."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "320",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-joao-fernandes-vieira-405",
-        "nome":  "Edifício Rua João Fernandes Vieira 405",
-        "endereco":  "Outros Logradouros, 405",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Maria do Carmo Braga",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Maria do Carmo Braga"
-                            }
-                        ],
-        "ano":  "1991",
-        "lat":  -8.058,
-        "lng":  -34.8847,
-        "pagina":  "edificio.html?id=rua-joao-fernandes-vieira-405",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua joão Fernandes Vieira 405, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1991",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Maria do Carmo Braga",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1991."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "405",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-joaquim-vieria-168",
-        "nome":  "Edifício Rua Joaquim Vieria 168",
-        "endereco":  "Rua Joaquim Vieira, 168",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Sergio Tepermen",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Sergio Tepermen"
-                            }
-                        ],
-        "ano":  "1975",
-        "lat":  -8.0625,
-        "lng":  -34.8921,
-        "pagina":  "edificio.html?id=rua-joaquim-vieria-168",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Joaquim Vieria 168, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1975",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Sergio Tepermen",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1975."
-                       }
-                   ],
-        "logradouro":  "Rua Joaquim Vieira",
-        "numero":  "168",
-        "uso":  "Institucional",
-        "tipologia":  "NÃ£o se aplica"
-    },
-    {
-        "id":  "rua-samuel-pinto-70",
-        "nome":  "Edifício Rua Samuel Pinto 70",
-        "endereco":  "Rua Samuel Pinto, 70",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Jos Luiz Correia de Oliveira",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Jos Luiz Correia de Oliveira"
-                            }
-                        ],
-        "ano":  "1962",
-        "lat":  -8.0602,
-        "lng":  -34.897,
-        "pagina":  "edificio.html?id=rua-samuel-pinto-70",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Samuel Pinto 70, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1962",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Jos Luiz Correia de Oliveira",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1962."
-                       }
-                   ],
-        "logradouro":  "Rua Samuel Pinto",
-        "numero":  "70",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-samuel-pinto-95",
-        "nome":  "Edifício Rua Samuel Pinto 95",
-        "endereco":  "Rua Samuel Pinto, 95",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Waldecy Fernandes Pinto",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Waldecy Fernandes Pinto"
-                            }
-                        ],
-        "ano":  "1968",
-        "lat":  -8.0604,
-        "lng":  -34.8974,
-        "pagina":  "edificio.html?id=rua-samuel-pinto-95",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Samuel Pinto 95, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1968",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Waldecy Fernandes Pinto",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1968."
-                       }
-                   ],
-        "logradouro":  "Rua Samuel Pinto",
-        "numero":  "95",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-luiz-barbalho-255",
-        "nome":  "Edifício Rua Luiz Barbalho 255",
-        "endereco":  "Rua Luiz Barbalho, 255",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Delfim Amorim",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Delfim Amorim"
-                            }
-                        ],
-        "ano":  "1962",
-        "lat":  -8.0584,
-        "lng":  -34.8916,
-        "pagina":  "edificio.html?id=rua-luiz-barbalho-255",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Luiz Barbalho 255, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1962",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Delfim Amorim",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1962."
-                       }
-                   ],
-        "logradouro":  "Rua Luiz Barbalho",
-        "numero":  "255",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-da-uniao-121",
-        "nome":  "Edifício Garagem",
-        "endereco":  "Outros Logradouros, 121",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Jos Fernando Nunes de Carvalho",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Jos Fernando Nunes de Carvalho"
-                            }
-                        ],
-        "ano":  "1977",
-        "lat":  -8.0574,
-        "lng":  -34.8822,
-        "pagina":  "edificio.html?id=rua-da-uniao-121",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua da Unio 121, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1977",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Jos Fernando Nunes de Carvalho",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1977."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "121",
-        "uso":  "Comercial",
-        "tipologia":  "NÃ£o se aplica"
-    },
-    {
-        "id":  "rua-do-hospicio-163",
-        "nome":  "Edifício Rua do Hospício 163",
-        "endereco":  "Outros Logradouros, 163",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Walderes soares Pinto",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Walderes soares Pinto"
-                            }
-                        ],
-        "ano":  "1974",
-        "lat":  -8.0589,
-        "lng":  -34.8821,
-        "pagina":  "edificio.html?id=rua-do-hospicio-163",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua do Hospício 163, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1974",
-                           "tipo":  "reforma",
-                           "projetistas":  "Arq. Walderes soares Pinto",
-                           "descricao":  "Projeto de reforma aprovado na Prefeitura da Cidade do Recife em 1974."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "163",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-do-principe-325",
-        "nome":  "Edifício Rua do Principe 325",
-        "endereco":  "Rua do Príncipe, 325",
-        "bairro":  "Soledade",
-        "arquiteto":  "Arq. Alex Lomachinsky",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Alex Lomachinsky"
-                            }
-                        ],
-        "ano":  "1979",
-        "lat":  -8.0551,
-        "lng":  -34.8865,
-        "pagina":  "edificio.html?id=rua-do-principe-325",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua do Principe 325, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1979",
-                           "tipo":  "alteração",
-                           "projetistas":  "Arq. Alex Lomachinsky",
-                           "descricao":  "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1979."
-                       }
-                   ],
-        "logradouro":  "Rua do Príncipe",
-        "numero":  "325",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-do-riachuelo-521",
-        "nome":  "Edifício AlexAndré Medics",
-        "endereco":  "Rua do Riachuelo, 521",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Pedro Montenegro Filho",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Pedro Montenegro Filho"
-                            }
-                        ],
-        "ano":  "1969",
-        "lat":  -8.0565,
-        "lng":  -34.8839,
-        "pagina":  "edificio.html?id=rua-do-riachuelo-521",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua do Riachuelo 521, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1969",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Pedro Montenegro Filho",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1969."
-                       }
-                   ],
-        "logradouro":  "Rua do Riachuelo",
-        "numero":  "521",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-gervasio-pires-399",
-        "nome":  "Edifício Rua Gervasio Pires 399",
-        "endereco":  "Rua Gervásio Pires, 399",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Waldecy Fernandes Pinto, Arq. Renato Gonçalves Torres, Arq. Antonio Pedro Pina Didier",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Waldecy Fernandes Pinto"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Renato Gonçalves Torres"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Antonio Pedro Pina Didier"
-                            }
-                        ],
-        "ano":  "1970",
-        "lat":  -8.05691,
-        "lng":  -34.8874,
-        "pagina":  "edificio.html?id=rua-gervasio-pires-399",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Gervasio Pires 399, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1970",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Waldecy Fernandes Pinto, Arq. Renato Gonçalves Torres, Arq. Antonio Pedro Pina Didier",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1970."
-                       }
-                   ],
-        "logradouro":  "Rua Gervásio Pires",
-        "numero":  "399",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-imperatriz-tereza-cristina-67",
-        "nome":  "Edifício Rua Imperatriz Tereza Cristina 67",
-        "endereco":  "Rua Imperatriz Tereza Cristina, 67",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Maria Alice dos Anjos, Arq. Maria da Graça Carneiro Pessoa, Arq. Virginia de Sa Bomfim",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Maria Alice dos Anjos"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Maria da Graça Carneiro Pessoa"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Virginia de Sa Bomfim"
-                            }
-                        ],
-        "ano":  "1975",
-        "lat":  -8.0611,
-        "lng":  -34.8835,
-        "pagina":  "edificio.html?id=rua-imperatriz-tereza-cristina-67",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Imperatriz Tereza Cristina 67, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1975",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Maria Alice dos Anjos, Arq. Maria da Graça Carneiro Pessoa, Arq. Virginia de Sa Bomfim",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1975."
-                       }
-                   ],
-        "logradouro":  "Rua Imperatriz Tereza Cristina",
-        "numero":  "67",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-jose-de-alencar-500",
-        "nome":  "Edifício Rua Jos de Alencar 500",
-        "endereco":  "Outros Logradouros, 500",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Alex Lomachinsky",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Alex Lomachinsky"
-                            }
-                        ],
-        "ano":  "1972",
-        "lat":  -8.0571,
-        "lng":  -34.8853,
-        "pagina":  "edificio.html?id=rua-jose-de-alencar-500",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Jos de Alencar 500, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1972",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Alex Lomachinsky",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1972."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "500",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-luiz-barbalho-167",
-        "nome":  "Edifício Itauna",
-        "endereco":  "Rua Luiz Barbalho, 167",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Dinauro Esteves",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Dinauro Esteves"
-                            }
-                        ],
-        "ano":  "1978",
-        "lat":  -8.0581,
-        "lng":  -34.8911,
-        "pagina":  "edificio.html?id=rua-luiz-barbalho-167",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Luiz Barbalho 167, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1978",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Dinauro Esteves",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1978."
-                       }
-                   ],
-        "logradouro":  "Rua Luiz Barbalho",
-        "numero":  "167",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-conde-da-boa-vista-1476",
-        "nome":  "Edifício Santa Terezinha",
-        "endereco":  "Avenida Conde da Boa Vista, 1476",
-        "bairro":  "Soledade",
-        "arquiteto":  "Eng. Jonio Santos Pereira de Lemos",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Eng.",
-                                "nome":  "Jonio Santos Pereira de Lemos"
-                            }
-                        ],
-        "ano":  "1956",
-        "lat":  -8.05785,
-        "lng":  -34.8896,
-        "pagina":  "edificio.html?id=av-conde-da-boa-vista-1476",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 1476, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1956",
-                           "tipo":  "aprovação de projeto",
-                           "projetistas":  "Eng. Jonio Santos Pereira de Lemos",
-                           "descricao":  "Projeto de aprovação de projeto aprovado na Prefeitura da Cidade do Recife em 1956."
-                       }
-                   ],
-        "logradouro":  "Avenida Conde da Boa Vista",
-        "numero":  "1476",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-conde-da-boa-vista-332",
-        "nome":  "Edifício Av. Conde da Boa Vista 332",
-        "endereco":  "Avenida Conde da Boa Vista, 332",
-        "bairro":  "Soledade",
-        "arquiteto":  "Arq. Abrahão Sanovicz",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Abrahão Sanovicz"
-                            }
-                        ],
-        "ano":  "1989",
-        "lat":  -8.05955,
-        "lng":  -34.883,
-        "pagina":  "edificio.html?id=av-conde-da-boa-vista-332",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 332, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1989",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Abrahão Sanovicz",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1989."
-                       }
-                   ],
-        "logradouro":  "Avenida Conde da Boa Vista",
-        "numero":  "332",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-manoel-borba-488",
-        "nome":  "Edifício Av. Manoel Borba 488",
-        "endereco":  "Avenida Manoel Borba, 488",
-        "bairro":  "Soledade",
-        "arquiteto":  "Arq. Roberto Safady",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Roberto Safady"
-                            }
-                        ],
-        "ano":  "1982",
-        "lat":  -8.0618,
-        "lng":  -34.8882,
-        "pagina":  "edificio.html?id=av-manoel-borba-488",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Manoel Borba 488, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1982",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Roberto Safady",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1982."
-                       },
-                       {
-                           "ano":  "1985",
-                           "tipo":  "reforma",
-                           "projetistas":  "Arq. Roberto Safady",
-                           "descricao":  "Projeto de reforma aprovado na Prefeitura da Cidade do Recife em 1985."
-                       }
-                   ],
-        "logradouro":  "Avenida Manoel Borba",
-        "numero":  "488",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-bulhoes-marques-15",
-        "nome":  "Edifício Rua Bulhões Marques 15",
-        "endereco":  "Outros Logradouros, 15",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Alex Lomachinsky",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Alex Lomachinsky"
-                            }
-                        ],
-        "ano":  "1967",
-        "lat":  -8.0589,
-        "lng":  -34.8834,
-        "pagina":  "edificio.html?id=rua-bulhoes-marques-15",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Bulhões Marques 15, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1967",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Alex Lomachinsky",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1967."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "15",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-joaquim-brito-153",
-        "nome":  "Edifício Rua Joaquim Brito 153",
-        "endereco":  "Rua Joaquim Brito, 153",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Wandenkolk Walter Tinôco",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Wandenkolk Walter Tinôco"
-                            }
-                        ],
-        "ano":  "1964",
-        "lat":  -8.0621,
-        "lng":  -34.8912,
-        "pagina":  "edificio.html?id=rua-joaquim-brito-153",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Joaquim Brito 153, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1964",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Wandenkolk Walter Tinôco",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1964."
-                       }
-                   ],
-        "logradouro":  "Rua Joaquim Brito",
-        "numero":  "153",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-barao-de-sao-borja-480",
-        "nome":  "Edifício Yucatam",
-        "endereco":  "Outros Logradouros, 480",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. David Kitover, Arq. Augusto Reinaldo, Arq. Ernestina Reinaldo, Arq. Rosana Kitover",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "David Kitover"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Augusto Reinaldo"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Ernestina Reinaldo"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Rosana Kitover"
-                            }
-                        ],
-        "ano":  "1976",
-        "lat":  -8.0573,
-        "lng":  -34.886,
-        "pagina":  "edificio.html?id=rua-barao-de-sao-borja-480",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua barão de são Borja 480, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1976",
-                           "tipo":  "obra de arte",
-                           "projetistas":  "Arq. David Kitover, Arq. Augusto Reinaldo, Arq. Ernestina Reinaldo, Arq. Rosana Kitover",
-                           "descricao":  "Projeto de obra de arte aprovado na Prefeitura da Cidade do Recife em 1976."
-                       },
-                       {
-                           "ano":  "1981",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. David Kitover, Arq. Augusto Reinaldo, Arq. Ernestina Reinaldo, Arq. Rosana Kitover",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1981."
-                       },
-                       {
-                           "ano":  "1983",
-                           "tipo":  "alteração",
-                           "projetistas":  "Arq. David Kitover, Arq. Augusto Reinaldo, Arq. Ernestina Reinaldo, Arq. Rosana Kitover",
-                           "descricao":  "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1983."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "480",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-barao-de-sao-borja-321",
-        "nome":  "Edifício Rua Barão de São Borja 321",
-        "endereco":  "Outros Logradouros, 321",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Wandenkolk Walter Tinôco",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Wandenkolk Walter Tinôco"
-                            }
-                        ],
-        "ano":  "1960",
-        "lat":  -8.0568,
-        "lng":  -34.883,
-        "pagina":  "edificio.html?id=rua-barao-de-sao-borja-321",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua barão de são Borja 321, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1960",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Wandenkolk Walter Tinôco",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1960."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "321",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-das-ninfas-341",
-        "nome":  "Edifício Rua das Ninfas 341",
-        "endereco":  "Rua das Ninfas, 341",
-        "bairro":  "Soledade",
-        "arquiteto":  "Arq. Accio Gil Borsoi",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Accio Gil Borsoi"
-                            }
-                        ],
-        "ano":  "1966",
-        "lat":  -8.0602,
-        "lng":  -34.8901,
-        "pagina":  "edificio.html?id=rua-das-ninfas-341",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua das Ninfas 341, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1966",
-                           "tipo":  "reforma",
-                           "projetistas":  "Arq. Accio Gil Borsoi",
-                           "descricao":  "Projeto de reforma aprovado na Prefeitura da Cidade do Recife em 1966."
-                       }
-                   ],
-        "logradouro":  "Rua das Ninfas",
-        "numero":  "341",
-        "uso":  "Comercial",
-        "tipologia":  "NÃ£o se aplica"
-    },
-    {
-        "id":  "rua-dom-bosco-687",
-        "nome":  "Edifício Rua Dom Bosco 687",
-        "endereco":  "Rua Dom Bosco, 687",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Delfim Amorim"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Heitor Maia Neto"
-                            }
-                        ],
-        "ano":  "1968",
-        "lat":  -8.0591,
-        "lng":  -34.8942,
-        "pagina":  "edificio.html?id=rua-dom-bosco-687",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Dom Bosco 687, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1968",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1968."
-                       }
-                   ],
-        "logradouro":  "Rua Dom Bosco",
-        "numero":  "687",
-        "uso":  "Institucional",
-        "tipologia":  "NÃ£o se aplica"
-    },
-    {
-        "id":  "rua-jose-de-alencar-264",
-        "nome":  "Edifício Rua José de Alencar 264",
-        "endereco":  "Outros Logradouros, 264",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Joaquim Rodrigues",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Joaquim Rodrigues"
-                            }
-                        ],
-        "ano":  "1953",
-        "lat":  -8.0648,
-        "lng":  -34.886,
-        "pagina":  "edificio.html?id=rua-jose-de-alencar-264",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua José de Alencar 264, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1953",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Joaquim Rodrigues",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1953."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "264",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-carlos-porto-carreira-190",
-        "nome":  "Edifício Berilo",
-        "endereco":  "Rua Carlos Porto Carreiro, 190",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Paulo Gondim Vaz de Oliveira",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Paulo Gondim Vaz de Oliveira"
-                            }
-                        ],
-        "ano":  "1963",
-        "lat":  -8.0581,
-        "lng":  -34.8932,
-        "pagina":  "edificio.html?id=rua-carlos-porto-carreira-190",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Carlos Porto Carreira 190, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1963",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Paulo Gondim Vaz de Oliveira",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1963."
-                       }
-                   ],
-        "logradouro":  "Rua Carlos Porto Carreiro",
-        "numero":  "190",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-jose-de-alencar-234",
-        "nome":  "Edifício Rua José de Alencar 234",
-        "endereco":  "Outros Logradouros, 234",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Eng. Luiz Noya Volfzon",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Eng.",
-                                "nome":  "Luiz Noya Volfzon"
-                            }
-                        ],
-        "ano":  "1954",
-        "lat":  -8.0645,
-        "lng":  -34.8858,
-        "pagina":  "edificio.html?id=rua-jose-de-alencar-234",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua José de Alencar 234, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1954",
-                           "tipo":  "construção",
-                           "projetistas":  "Eng. Luiz Noya Volfzon",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1954."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "234",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-dom-bosco-871",
-        "nome":  "Edifício Rua Dom Bosco 871",
-        "endereco":  "Rua Dom Bosco, 871",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Jorge Martins Júnior, Arq. Maria Lcia Athayde",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Jorge Martins Júnior"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Maria Lcia Athayde"
-                            }
-                        ],
-        "ano":  "1967",
-        "lat":  -8.0595,
-        "lng":  -34.8955,
-        "pagina":  "edificio.html?id=rua-dom-bosco-871",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Dom Bosco 871, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1967",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Jorge Martins Júnior, Arq. Maria Lcia Athayde",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1967."
-                       },
-                       {
-                           "ano":  "1967",
-                           "tipo":  "aprovação de projeto",
-                           "projetistas":  "Arq. Jorge Martins Júnior, Arq. Maria Lcia Athayde",
-                           "descricao":  "Projeto de aprovação de projeto aprovado na Prefeitura da Cidade do Recife em 1967."
-                       }
-                   ],
-        "logradouro":  "Rua Dom Bosco",
-        "numero":  "871",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-conde-da-boa-vista-800",
-        "nome":  "Edifício Av. Conde da Boa Vista 800",
-        "endereco":  "Avenida Conde da Boa Vista, 800",
-        "bairro":  "Soledade",
-        "arquiteto":  "Arq. Reforma",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Reforma"
-                            }
-                        ],
-        "ano":  "s.d.",
-        "lat":  -8.0585,
-        "lng":  -34.8858,
-        "pagina":  "edificio.html?id=av-conde-da-boa-vista-800",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 800, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-
-                   ],
-        "logradouro":  "Avenida Conde da Boa Vista",
-        "numero":  "800",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-capitao-ruy-luneca-160",
-        "nome":  "Edifício colorado",
-        "endereco":  "Outros Logradouros, 160",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Geraldo Santana",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Geraldo Santana"
-                            }
-                        ],
-        "ano":  "1973",
-        "lat":  -8.0597,
-        "lng":  -34.8831,
-        "pagina":  "edificio.html?id=rua-capitao-ruy-luneca-160",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Capitão Ruy Luneca 160, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1973",
-                           "tipo":  "alteração",
-                           "projetistas":  "Arq. Geraldo Santana",
-                           "descricao":  "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1973."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "160",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-da-aurora-295",
-        "nome":  "Edifício Rua da Aurora 295",
-        "endereco":  "Rua da Aurora, 295",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Alex Lomachinsky",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Alex Lomachinsky"
-                            }
-                        ],
-        "ano":  "s.d.",
-        "lat":  -8.05476,
-        "lng":  -34.87986,
-        "pagina":  "edificio.html?id=rua-da-aurora-295",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua da Aurora 295, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-
-                   ],
-        "logradouro":  "Rua da Aurora",
-        "numero":  "295",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-da-aurora-325",
-        "nome":  "Edifício Rua da Aurora 325",
-        "endereco":  "Rua da Aurora, 325",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Pedro Montenegro, Arq. Waldecy Fernandes Pinto",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Pedro Montenegro"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Waldecy Fernandes Pinto"
-                            }
-                        ],
-        "ano":  "1979",
-        "lat":  -8.0545,
-        "lng":  -34.8797,
-        "pagina":  "edificio.html?id=rua-da-aurora-325",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua da Aurora 325, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1979",
-                           "tipo":  "alteração",
-                           "projetistas":  "Arq. Pedro Montenegro, Arq. Waldecy Fernandes Pinto",
-                           "descricao":  "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1979."
-                       }
-                   ],
-        "logradouro":  "Rua da Aurora",
-        "numero":  "325",
-        "uso":  "Misto",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-da-Soledade-57",
-        "nome":  "Edifício Rua da Soledade 57",
-        "endereco":  "Outros Logradouros, 57",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Delfim Amorim"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Heitor Maia Neto"
-                            }
-                        ],
-        "ano":  "1969",
-        "lat":  -8.0588,
-        "lng":  -34.8905,
-        "pagina":  "edificio.html?id=rua-da-Soledade-57",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua da Soledade 57, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1969",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1969."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "57",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-do-riachuelo-201",
-        "nome":  "Edifício Forte Orange",
-        "endereco":  "Rua do Riachuelo, 201",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Delfim Amorim, Arq. Cláudio Cavalcanti",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Delfim Amorim"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Cláudio Cavalcanti"
-                            }
-                        ],
-        "ano":  "1980",
-        "lat":  -8.0572,
-        "lng":  -34.8819,
-        "pagina":  "edificio.html?id=rua-do-riachuelo-201",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua do Riachuelo 201, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1980",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Delfim Amorim, Arq. Cláudio Cavalcanti",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1980."
-                       }
-                   ],
-        "logradouro":  "Rua do Riachuelo",
-        "numero":  "201",
-        "uso":  "Misto",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-dom-bosco-913",
-        "nome":  "Edifício Rua Dom Bosco 913",
-        "endereco":  "Rua Dom Bosco, 913",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Waldecy Fernandes Pinto, Arq. Renato Gonçalves Torres, Arq. Antônio Pedro Pina Didier",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Waldecy Fernandes Pinto"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Renato Gonçalves Torres"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Antônio Pedro Pina Didier"
-                            }
-                        ],
-        "ano":  "1970",
-        "lat":  -8.0596,
-        "lng":  -34.8958,
-        "pagina":  "edificio.html?id=rua-dom-bosco-913",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Dom Bosco 913, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1970",
-                           "tipo":  "alteração",
-                           "projetistas":  "Arq. Waldecy Fernandes Pinto, Arq. Renato Gonçalves Torres, Arq. Antônio Pedro Pina Didier",
-                           "descricao":  "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1970."
-                       }
-                   ],
-        "logradouro":  "Rua Dom Bosco",
-        "numero":  "913",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-jose-de-alencar-447",
-        "nome":  "Edifício Rua Jos de Alencar 447",
-        "endereco":  "Outros Logradouros, 447",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Alex Lomachinsky",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Alex Lomachinsky"
-                            }
-                        ],
-        "ano":  "1976",
-        "lat":  -8.0597,
-        "lng":  -34.8849,
-        "pagina":  "edificio.html?id=rua-jose-de-alencar-447",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Jos de Alencar 447, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1976",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Alex Lomachinsky",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1976."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "447",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-jose-de-alencar-493",
-        "nome":  "Edifício Rua Jos de Alencar 493",
-        "endereco":  "Outros Logradouros, 493",
-        "bairro":  "BOA VISTA - RECIFE",
-        "arquiteto":  "Arq. Carlos Alberto Carneiro da Cunha, Arq. Carlos Jos Henriques de Araujo",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Carlos Alberto Carneiro da Cunha"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Carlos Jos Henriques de Araujo"
-                            }
-                        ],
-        "ano":  "1973",
-        "lat":  -8.0586,
-        "lng":  -34.8848,
-        "pagina":  "edificio.html?id=rua-jose-de-alencar-493",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Jos de Alencar 493, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1973",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Carlos Alberto Carneiro da Cunha, Arq. Carlos Jos Henriques de Araujo",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1973."
-                       }
-                   ],
-        "logradouro":  "Outros Logradouros",
-        "numero":  "493",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-miguel-couto-89",
-        "nome":  "Edifício Rua Miguel Couto 89",
-        "endereco":  "Rua Miguel Couto, 89",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Delfim Amorim",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Delfim Amorim"
-                            }
-                        ],
-        "ano":  "1970",
-        "lat":  -8.0631,
-        "lng":  -34.8901,
-        "pagina":  "edificio.html?id=rua-miguel-couto-89",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Miguel Couto 89, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1970",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Delfim Amorim",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1970."
-                       }
-                   ],
-        "logradouro":  "Rua Miguel Couto",
-        "numero":  "89",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-miguel-couto-90",
-        "nome":  "Edifício Rua Miguel Couto 90",
-        "endereco":  "Rua Miguel Couto, 90",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Delfim Amorim"
-                            },
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Heitor Maia Neto"
-                            }
-                        ],
-        "ano":  "1963",
-        "lat":  -8.06315,
-        "lng":  -34.89015,
-        "pagina":  "edificio.html?id=rua-miguel-couto-90",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Miguel Couto 90, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1963",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1963."
-                       }
-                   ],
-        "logradouro":  "Rua Miguel Couto",
-        "numero":  "90",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-samuel-pinto-90",
-        "nome":  "Edifício Rua Samuel Pinto 90",
-        "endereco":  "Rua Samuel Pinto, 90",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Hugo Marques",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Hugo Marques"
-                            }
-                        ],
-        "ano":  "1963",
-        "lat":  -8.06035,
-        "lng":  -34.8973,
-        "pagina":  "edificio.html?id=rua-samuel-pinto-90",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Samuel Pinto 90, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1963",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Hugo Marques",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1963."
-                       }
-                   ],
-        "logradouro":  "Rua Samuel Pinto",
-        "numero":  "90",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "rua-bulhoes-marques-19",
-        "nome":  "Edifício Rua Bulhões Marques 19",
-        "endereco":  "Rua Bulhões Marques, 19",
-        "bairro":  "Boa Vista",
-        "arquiteto":  "Arq. Alex Lomachinsky",
-        "projetistas":  [
-                            {
-                                "prefixo":  "Arq.",
-                                "nome":  "Alex Lomachinsky"
-                            }
-                        ],
-        "ano":  "1966",
-        "lat":  -8.0574,
-        "lng":  -34.8831,
-        "pagina":  "edificio.html?id=rua-bulhoes-marques-19",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Rua Bulhões Marques 19, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-                       {
-                           "ano":  "1966",
-                           "tipo":  "construção",
-                           "projetistas":  "Arq. Alex Lomachinsky",
-                           "descricao":  "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1966."
-                       }
-                   ],
-        "logradouro":  "Rua Bulhões Marques",
-        "numero":  "19",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    },
-    {
-        "id":  "av-conde-da-boa-vista-247",
-        "nome":  "Edifício Av. Conde da Boa Vista 247",
-        "endereco":  "Avenida Conde da Boa Vista, 247",
-        "bairro":  "Soledade",
-        "arquiteto":  "Autor a confirmar",
-        "projetistas":  [
-
-                        ],
-        "ano":  "s.d.",
-        "lat":  -8.05985,
-        "lng":  -34.8821,
-        "pagina":  "edificio.html?id=av-conde-da-boa-vista-247",
-        "imagem":  "",
-        "texto":  [
-                      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 247, Recife - PE.",
-                      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
-                  ],
-        "fotos":  [
-
-                  ],
-        "etapas":  [
-
-                   ],
-        "logradouro":  "Avenida Conde da Boa Vista",
-        "numero":  "247",
-        "uso":  "Residencial",
-        "tipologia":  "Multifamiliar"
-    }
+[
+  {
+    "id": "av-agamenon-45",
+    "nome": "Edifício Av. Agamenon 45",
+    "endereco": "Avenida Governador Agamenon Magalhães, 45",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Delfim Amorim"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Heitor Maia Neto"
+      }
+    ],
+    "ano": "1969",
+    "lat": -8.05125,
+    "lng": -34.8961,
+    "pagina": "edificio.html?id=av-agamenon-45",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Agamenon 45, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1969",
+        "tipo": "alteração",
+        "projetistas": "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
+        "descricao": "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1969."
+      }
+    ],
+    "logradouro": "Avenida Governador Agamenon Magalhães",
+    "numero": "45",
+    "uso": "Residencial",
+    "tipologia": "Unifamiliar"
+  },
+  {
+    "id": "av-agamenon-55",
+    "nome": "Edifício Av. Agamenon 55",
+    "endereco": "Avenida Governador Agamenon Magalhães, 55",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Delfim Amorim",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Delfim Amorim"
+      }
+    ],
+    "ano": "1960",
+    "lat": -8.0514,
+    "lng": -34.89615,
+    "pagina": "edificio.html?id=av-agamenon-55",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Agamenon 55, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1960",
+        "tipo": "construção",
+        "projetistas": "Arq. Delfim Amorim",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1960."
+      }
+    ],
+    "logradouro": "Avenida Governador Agamenon Magalhães",
+    "numero": "55",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-agamenon-73",
+    "nome": "Edifício Av. Agamenon 73",
+    "endereco": "Avenida Governador Agamenon Magalhães, 73",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Hugo Marques",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Hugo Marques"
+      }
+    ],
+    "ano": "1961",
+    "lat": -8.05165,
+    "lng": -34.8962,
+    "pagina": "edificio.html?id=av-agamenon-73",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Agamenon 73, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1961",
+        "tipo": "construção",
+        "projetistas": "Arq. Hugo Marques",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1961."
+      }
+    ],
+    "logradouro": "Avenida Governador Agamenon Magalhães",
+    "numero": "73",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-joao-de-barros-903",
+    "nome": "Edifício Av. João de barros 903",
+    "endereco": "Outros Logradouros, 903",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Vital Pessoa de Melo",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Vital Pessoa de Melo"
+      }
+    ],
+    "ano": "1985",
+    "lat": -8.0566,
+    "lng": -34.8833,
+    "pagina": "edificio.html?id=av-joao-de-barros-903",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. joão de barros 903, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1985",
+        "tipo": "construção",
+        "projetistas": "Arq. Vital Pessoa de Melo",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1985."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "903",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-dr-leopoldo-lins-217",
+    "nome": "Edifício Rua Dr. Leopoldo Lins 217",
+    "endereco": "Rua Doutor Leopoldo Lins, 217",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Emmanuel Lins, Arq. Alex Lomachinsky",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Emmanuel Lins"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Alex Lomachinsky"
+      }
+    ],
+    "ano": "1974",
+    "lat": -8.0611,
+    "lng": -34.8922,
+    "pagina": "edificio.html?id=rua-dr-leopoldo-lins-217",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Dr. Leopoldo Lins 217, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1974",
+        "tipo": "construção",
+        "projetistas": "Arq. Emmanuel Lins, Arq. Alex Lomachinsky",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1974."
+      }
+    ],
+    "logradouro": "Rua Doutor Leopoldo Lins",
+    "numero": "217",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-henrique-dias-161",
+    "nome": "Edifício Rua Henrique Dias 161",
+    "endereco": "Rua Henrique Dias, 161",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Luiz Coimbra",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Luiz Coimbra"
+      }
+    ],
+    "ano": "1960",
+    "lat": -8.0613,
+    "lng": -34.8931,
+    "pagina": "edificio.html?id=rua-henrique-dias-161",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Henrique Dias 161, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1960",
+        "tipo": "construção",
+        "projetistas": "Arq. Luiz Coimbra",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1960."
+      }
+    ],
+    "logradouro": "Rua Henrique Dias",
+    "numero": "161",
+    "uso": "Residencial",
+    "tipologia": "Unifamiliar"
+  },
+  {
+    "id": "rua-dr-leopoldo-lins-237",
+    "nome": "Edifício Rua Dr. Leopoldo Lins 237",
+    "endereco": "Rua Doutor Leopoldo Lins, 237",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Rogerio Silvio dos Santos",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Rogerio Silvio dos Santos"
+      }
+    ],
+    "ano": "1967",
+    "lat": -8.06125,
+    "lng": -34.8924,
+    "pagina": "edificio.html?id=rua-dr-leopoldo-lins-237",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Dr. Leopoldo Lins 237, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1967",
+        "tipo": "construção",
+        "projetistas": "Arq. Rogerio Silvio dos Santos",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1967."
+      }
+    ],
+    "logradouro": "Rua Doutor Leopoldo Lins",
+    "numero": "237",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-monte-castelo-87",
+    "nome": "Edifício Rua Monte Castelo 87",
+    "endereco": "Rua Monte Castelo, 87",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Hugo Marques",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Hugo Marques"
+      }
+    ],
+    "ano": "1961",
+    "lat": -8.0621,
+    "lng": -34.8951,
+    "pagina": "edificio.html?id=rua-monte-castelo-87",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Monte Castelo 87, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1961",
+        "tipo": "construção",
+        "projetistas": "Arq. Hugo Marques",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1961."
+      }
+    ],
+    "logradouro": "Rua Monte Castelo",
+    "numero": "87",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-monte-castelo-118",
+    "nome": "Edifício Rua Monte Castelo 118",
+    "endereco": "Rua Monte Castelo, 118",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Waldecy Fernandes Pinto, Arq. Renato Torres, Arq. Antonio P. Didier",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Waldecy Fernandes Pinto"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Renato Torres"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Antonio P. Didier"
+      }
+    ],
+    "ano": "1969",
+    "lat": -8.0623,
+    "lng": -34.8954,
+    "pagina": "edificio.html?id=rua-monte-castelo-118",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Monte Castelo 118, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1969",
+        "tipo": "construção",
+        "projetistas": "Arq. Waldecy Fernandes Pinto, Arq. Renato Torres, Arq. Antonio P. Didier",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1969."
+      }
+    ],
+    "logradouro": "Rua Monte Castelo",
+    "numero": "118",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-conde-da-boa-vista-1016",
+    "nome": "Edifício módulo",
+    "endereco": "Avenida Conde da Boa Vista, 1016",
+    "bairro": "Soledade",
+    "arquiteto": "Arq. Oscar Uchôa, Arq. Rogerio Silvio dos Santos",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Oscar Uchôa"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Rogerio Silvio dos Santos"
+      }
+    ],
+    "ano": "1970",
+    "lat": -8.05831,
+    "lng": -34.88696,
+    "pagina": "edificio.html?id=av-conde-da-boa-vista-1016",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 1016, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1970",
+        "tipo": "locação",
+        "projetistas": "Arq. Oscar Uchôa, Arq. Rogerio Silvio dos Santos",
+        "descricao": "Projeto de locação aprovado na Prefeitura da Cidade do Recife em 1970."
+      },
+      {
+        "ano": "1972",
+        "tipo": "alteração",
+        "projetistas": "Arq. Oscar Uchôa, Arq. Rogerio Silvio dos Santos",
+        "descricao": "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1972."
+      }
+    ],
+    "logradouro": "Avenida Conde da Boa Vista",
+    "numero": "1016",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-conde-da-boa-vista-150",
+    "nome": "Edifício Av. Conde da Boa Vista 150",
+    "endereco": "Avenida Conde da Boa Vista, 150",
+    "bairro": "Soledade",
+    "arquiteto": "Arq. Mario Petrônio Dowsley",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Mario Petrônio Dowsley"
+      }
+    ],
+    "ano": "1973",
+    "lat": -8.0601,
+    "lng": -34.8812,
+    "pagina": "edificio.html?id=av-conde-da-boa-vista-150",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 150, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1973",
+        "tipo": "construção",
+        "projetistas": "Arq. Mario Petrônio Dowsley",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1973."
+      }
+    ],
+    "logradouro": "Avenida Conde da Boa Vista",
+    "numero": "150",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-conde-da-boa-vista-569",
+    "nome": "Edifício Rostand",
+    "endereco": "Avenida Conde da Boa Vista, 569",
+    "bairro": "Soledade",
+    "arquiteto": "Arq. Jorge Martins Júnior, Arq. Glauco Campelo",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Jorge Martins Júnior"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Glauco Campelo"
+      }
+    ],
+    "ano": "1962",
+    "lat": -8.0591,
+    "lng": -34.8845,
+    "pagina": "edificio.html?id=av-conde-da-boa-vista-569",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 569, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1962",
+        "tipo": "construção",
+        "projetistas": "Arq. Jorge Martins Júnior, Arq. Glauco Campelo",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1962."
+      },
+      {
+        "ano": "1969",
+        "tipo": "alteração",
+        "projetistas": "Arq. Jorge Martins Júnior, Arq. Glauco Campelo",
+        "descricao": "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1969."
+      }
+    ],
+    "logradouro": "Avenida Conde da Boa Vista",
+    "numero": "569",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-conde-da-boa-vista-1295",
+    "nome": "Edifício Av. Conde da Boa Vista 1295",
+    "endereco": "Avenida Conde da Boa Vista, 1295",
+    "bairro": "Soledade",
+    "arquiteto": "Arq. Paulo Vaz de Oliveira",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Paulo Vaz de Oliveira"
+      }
+    ],
+    "ano": "1968",
+    "lat": -8.0581,
+    "lng": -34.8885,
+    "pagina": "edificio.html?id=av-conde-da-boa-vista-1295",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 1295, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1968",
+        "tipo": "construção",
+        "projetistas": "Arq. Paulo Vaz de Oliveira",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1968."
+      },
+      {
+        "ano": "1970",
+        "tipo": "alteração",
+        "projetistas": "Arq. Paulo Vaz de Oliveira",
+        "descricao": "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1970."
+      }
+    ],
+    "logradouro": "Avenida Conde da Boa Vista",
+    "numero": "1295",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-conde-da-boa-vista-1317",
+    "nome": "Edifício São Luiz",
+    "endereco": "Avenida Conde da Boa Vista, 1317",
+    "bairro": "Soledade",
+    "arquiteto": "Eng. Jonio Santos Pereira de Lemos",
+    "projetistas": [
+      {
+        "prefixo": "Eng.",
+        "nome": "Jonio Santos Pereira de Lemos"
+      }
+    ],
+    "ano": "1957",
+    "lat": -8.058,
+    "lng": -34.8889,
+    "pagina": "edificio.html?id=av-conde-da-boa-vista-1317",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 1317, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1957",
+        "tipo": "construção",
+        "projetistas": "Eng. Jonio Santos Pereira de Lemos",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1957."
+      }
+    ],
+    "logradouro": "Avenida Conde da Boa Vista",
+    "numero": "1317",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-joao-de-barros-201",
+    "nome": "Edifício Forte Orange",
+    "endereco": "Outros Logradouros, 201",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Vital Pessoa de Melo",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Vital Pessoa de Melo"
+      }
+    ],
+    "ano": "1980",
+    "lat": -8.0593,
+    "lng": -34.8855,
+    "pagina": "edificio.html?id=av-joao-de-barros-201",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. joão de Barros 201, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1980",
+        "tipo": "construção",
+        "projetistas": "Arq. Vital Pessoa de Melo",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1980."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "201",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-joao-de-barros-633",
+    "nome": "Edifício Garanhuns",
+    "endereco": "Outros Logradouros, 633",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Emerson A. Pinheiro, Arq. André de Morais Marques",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Emerson A. Pinheiro"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "André de Morais Marques"
+      }
+    ],
+    "ano": "1968",
+    "lat": -8.0598,
+    "lng": -34.883,
+    "pagina": "edificio.html?id=av-joao-de-barros-633",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. joão de Barros 633, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1968",
+        "tipo": "construção",
+        "projetistas": "Arq. Emerson A. Pinheiro, Arq. André de Morais Marques",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1968."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "633",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-samuel-pinto-54",
+    "nome": "Edifício Tamoio",
+    "endereco": "Rua Samuel Pinto, 54",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Hugo Marques",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Hugo Marques"
+      }
+    ],
+    "ano": "1959",
+    "lat": -8.0601,
+    "lng": -34.8968,
+    "pagina": "edificio.html?id=rua-samuel-pinto-54",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Samuel Pinto 54, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1959",
+        "tipo": "construção",
+        "projetistas": "Arq. Hugo Marques",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1959."
+      }
+    ],
+    "logradouro": "Rua Samuel Pinto",
+    "numero": "54",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-samuel-pinto-77",
+    "nome": "Edifício Rua Samuel Pinto 77",
+    "endereco": "Rua Samuel Pinto, 77",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Hugo Marques",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Hugo Marques"
+      }
+    ],
+    "ano": "1965",
+    "lat": -8.06025,
+    "lng": -34.8971,
+    "pagina": "edificio.html?id=rua-samuel-pinto-77",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Samuel Pinto 77, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1965",
+        "tipo": "construção",
+        "projetistas": "Arq. Hugo Marques",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1965."
+      }
+    ],
+    "logradouro": "Rua Samuel Pinto",
+    "numero": "77",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-oliveira-lima-999",
+    "nome": "Edifício Av. Oliveira Lima 999",
+    "endereco": "Avenida Oliveira Lima, 999",
+    "bairro": "Soledade",
+    "arquiteto": "Autor a confirmar",
+    "projetistas": [],
+    "ano": "1973",
+    "lat": -8.0672,
+    "lng": -34.88715,
+    "pagina": "edificio.html?id=av-oliveira-lima-999",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Oliveira Lima 999, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1973",
+        "tipo": "acrescimo",
+        "projetistas": "Autor a confirmar",
+        "descricao": "Projeto de acrescimo aprovado na Prefeitura da Cidade do Recife em 1973."
+      },
+      {
+        "ano": "1981",
+        "tipo": "acrescimo",
+        "projetistas": "Autor a confirmar",
+        "descricao": "Projeto de acrescimo aprovado na Prefeitura da Cidade do Recife em 1981."
+      },
+      {
+        "ano": "1984",
+        "tipo": "reforma",
+        "projetistas": "Autor a confirmar",
+        "descricao": "Projeto de reforma aprovado na Prefeitura da Cidade do Recife em 1984."
+      },
+      {
+        "ano": "1992",
+        "tipo": "acrescimo",
+        "projetistas": "Autor a confirmar",
+        "descricao": "Projeto de acrescimo aprovado na Prefeitura da Cidade do Recife em 1992."
+      }
+    ],
+    "logradouro": "Avenida Oliveira Lima",
+    "numero": "999",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-oliveira-lima-997",
+    "nome": "Edifício Av. Oliveira Lima 997",
+    "endereco": "Avenida Oliveira Lima, 997",
+    "bairro": "Soledade",
+    "arquiteto": "Arq. Helio Moreira da Silva",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Helio Moreira da Silva"
+      }
+    ],
+    "ano": "1967",
+    "lat": -8.0671,
+    "lng": -34.8871,
+    "pagina": "edificio.html?id=av-oliveira-lima-997",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Oliveira Lima 997, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1967",
+        "tipo": "construção",
+        "projetistas": "Arq. Helio Moreira da Silva",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1967."
+      }
+    ],
+    "logradouro": "Avenida Oliveira Lima",
+    "numero": "997",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-joao-fernandes-vieira-320",
+    "nome": "Edifício Rua João Fernandes Vieira 320",
+    "endereco": "Outros Logradouros, 320",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Autor a confirmar",
+    "projetistas": [],
+    "ano": "1956",
+    "lat": -8.0569,
+    "lng": -34.8833,
+    "pagina": "edificio.html?id=rua-joao-fernandes-vieira-320",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua joão Fernandes Vieira 320, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1956",
+        "tipo": "reforma",
+        "projetistas": "Autor a confirmar",
+        "descricao": "Projeto de reforma aprovado na Prefeitura da Cidade do Recife em 1956."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "320",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-joao-fernandes-vieira-405",
+    "nome": "Edifício Rua João Fernandes Vieira 405",
+    "endereco": "Outros Logradouros, 405",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Maria do Carmo Braga",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Maria do Carmo Braga"
+      }
+    ],
+    "ano": "1991",
+    "lat": -8.058,
+    "lng": -34.8847,
+    "pagina": "edificio.html?id=rua-joao-fernandes-vieira-405",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua joão Fernandes Vieira 405, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1991",
+        "tipo": "construção",
+        "projetistas": "Arq. Maria do Carmo Braga",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1991."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "405",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-joaquim-vieria-168",
+    "nome": "Edifício Rua Joaquim Vieria 168",
+    "endereco": "Rua Joaquim Vieira, 168",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Sergio Tepermen",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Sergio Tepermen"
+      }
+    ],
+    "ano": "1975",
+    "lat": -8.0625,
+    "lng": -34.8921,
+    "pagina": "edificio.html?id=rua-joaquim-vieria-168",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Joaquim Vieria 168, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1975",
+        "tipo": "construção",
+        "projetistas": "Arq. Sergio Tepermen",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1975."
+      }
+    ],
+    "logradouro": "Rua Joaquim Vieira",
+    "numero": "168",
+    "uso": "Institucional",
+    "tipologia": "NÃ£o se aplica"
+  },
+  {
+    "id": "rua-samuel-pinto-70",
+    "nome": "Edifício Rua Samuel Pinto 70",
+    "endereco": "Rua Samuel Pinto, 70",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Jos Luiz Correia de Oliveira",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Jos Luiz Correia de Oliveira"
+      }
+    ],
+    "ano": "1962",
+    "lat": -8.0602,
+    "lng": -34.897,
+    "pagina": "edificio.html?id=rua-samuel-pinto-70",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Samuel Pinto 70, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1962",
+        "tipo": "construção",
+        "projetistas": "Arq. Jos Luiz Correia de Oliveira",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1962."
+      }
+    ],
+    "logradouro": "Rua Samuel Pinto",
+    "numero": "70",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-samuel-pinto-95",
+    "nome": "Edifício Rua Samuel Pinto 95",
+    "endereco": "Rua Samuel Pinto, 95",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Waldecy Fernandes Pinto",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Waldecy Fernandes Pinto"
+      }
+    ],
+    "ano": "1968",
+    "lat": -8.0604,
+    "lng": -34.8974,
+    "pagina": "edificio.html?id=rua-samuel-pinto-95",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Samuel Pinto 95, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1968",
+        "tipo": "construção",
+        "projetistas": "Arq. Waldecy Fernandes Pinto",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1968."
+      }
+    ],
+    "logradouro": "Rua Samuel Pinto",
+    "numero": "95",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-luiz-barbalho-255",
+    "nome": "Edifício Rua Luiz Barbalho 255",
+    "endereco": "Rua Luiz Barbalho, 255",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Delfim Amorim",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Delfim Amorim"
+      }
+    ],
+    "ano": "1962",
+    "lat": -8.0584,
+    "lng": -34.8916,
+    "pagina": "edificio.html?id=rua-luiz-barbalho-255",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Luiz Barbalho 255, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1962",
+        "tipo": "construção",
+        "projetistas": "Arq. Delfim Amorim",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1962."
+      }
+    ],
+    "logradouro": "Rua Luiz Barbalho",
+    "numero": "255",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-da-uniao-121",
+    "nome": "Edifício Garagem",
+    "endereco": "Outros Logradouros, 121",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Jos Fernando Nunes de Carvalho",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Jos Fernando Nunes de Carvalho"
+      }
+    ],
+    "ano": "1977",
+    "lat": -8.0574,
+    "lng": -34.8822,
+    "pagina": "edificio.html?id=rua-da-uniao-121",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua da Unio 121, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1977",
+        "tipo": "construção",
+        "projetistas": "Arq. Jos Fernando Nunes de Carvalho",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1977."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "121",
+    "uso": "Comercial",
+    "tipologia": "NÃ£o se aplica"
+  },
+  {
+    "id": "rua-do-hospicio-163",
+    "nome": "Edifício Rua do Hospício 163",
+    "endereco": "Outros Logradouros, 163",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Walderes soares Pinto",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Walderes soares Pinto"
+      }
+    ],
+    "ano": "1974",
+    "lat": -8.0589,
+    "lng": -34.8821,
+    "pagina": "edificio.html?id=rua-do-hospicio-163",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua do Hospício 163, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1974",
+        "tipo": "reforma",
+        "projetistas": "Arq. Walderes soares Pinto",
+        "descricao": "Projeto de reforma aprovado na Prefeitura da Cidade do Recife em 1974."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "163",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-do-principe-325",
+    "nome": "Edifício Rua do Principe 325",
+    "endereco": "Rua do Príncipe, 325",
+    "bairro": "Soledade",
+    "arquiteto": "Arq. Alex Lomachinsky",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Alex Lomachinsky"
+      }
+    ],
+    "ano": "1979",
+    "lat": -8.0551,
+    "lng": -34.8865,
+    "pagina": "edificio.html?id=rua-do-principe-325",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua do Principe 325, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1979",
+        "tipo": "alteração",
+        "projetistas": "Arq. Alex Lomachinsky",
+        "descricao": "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1979."
+      }
+    ],
+    "logradouro": "Rua do Príncipe",
+    "numero": "325",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-do-riachuelo-521",
+    "nome": "Edifício AlexAndré Medics",
+    "endereco": "Rua do Riachuelo, 521",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Pedro Montenegro Filho",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Pedro Montenegro Filho"
+      }
+    ],
+    "ano": "1969",
+    "lat": -8.0565,
+    "lng": -34.8839,
+    "pagina": "edificio.html?id=rua-do-riachuelo-521",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua do Riachuelo 521, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1969",
+        "tipo": "construção",
+        "projetistas": "Arq. Pedro Montenegro Filho",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1969."
+      }
+    ],
+    "logradouro": "Rua do Riachuelo",
+    "numero": "521",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-gervasio-pires-399",
+    "nome": "Edifício Rua Gervasio Pires 399",
+    "endereco": "Rua Gervásio Pires, 399",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Waldecy Fernandes Pinto, Arq. Renato Gonçalves Torres, Arq. Antonio Pedro Pina Didier",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Waldecy Fernandes Pinto"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Renato Gonçalves Torres"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Antonio Pedro Pina Didier"
+      }
+    ],
+    "ano": "1970",
+    "lat": -8.05691,
+    "lng": -34.8874,
+    "pagina": "edificio.html?id=rua-gervasio-pires-399",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Gervasio Pires 399, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1970",
+        "tipo": "construção",
+        "projetistas": "Arq. Waldecy Fernandes Pinto, Arq. Renato Gonçalves Torres, Arq. Antonio Pedro Pina Didier",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1970."
+      }
+    ],
+    "logradouro": "Rua Gervásio Pires",
+    "numero": "399",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-imperatriz-tereza-cristina-67",
+    "nome": "Edifício Rua Imperatriz Tereza Cristina 67",
+    "endereco": "Rua Imperatriz Tereza Cristina, 67",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Maria Alice dos Anjos, Arq. Maria da Graça Carneiro Pessoa, Arq. Virginia de Sa Bomfim",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Maria Alice dos Anjos"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Maria da Graça Carneiro Pessoa"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Virginia de Sa Bomfim"
+      }
+    ],
+    "ano": "1975",
+    "lat": -8.0611,
+    "lng": -34.8835,
+    "pagina": "edificio.html?id=rua-imperatriz-tereza-cristina-67",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Imperatriz Tereza Cristina 67, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1975",
+        "tipo": "construção",
+        "projetistas": "Arq. Maria Alice dos Anjos, Arq. Maria da Graça Carneiro Pessoa, Arq. Virginia de Sa Bomfim",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1975."
+      }
+    ],
+    "logradouro": "Rua Imperatriz Tereza Cristina",
+    "numero": "67",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-jose-de-alencar-500",
+    "nome": "Edifício Rua Jos de Alencar 500",
+    "endereco": "Outros Logradouros, 500",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Alex Lomachinsky",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Alex Lomachinsky"
+      }
+    ],
+    "ano": "1972",
+    "lat": -8.0571,
+    "lng": -34.8853,
+    "pagina": "edificio.html?id=rua-jose-de-alencar-500",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Jos de Alencar 500, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1972",
+        "tipo": "construção",
+        "projetistas": "Arq. Alex Lomachinsky",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1972."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "500",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-luiz-barbalho-167",
+    "nome": "Edifício Itauna",
+    "endereco": "Rua Luiz Barbalho, 167",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Dinauro Esteves",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Dinauro Esteves"
+      }
+    ],
+    "ano": "1978",
+    "lat": -8.0581,
+    "lng": -34.8911,
+    "pagina": "edificio.html?id=rua-luiz-barbalho-167",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Luiz Barbalho 167, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1978",
+        "tipo": "construção",
+        "projetistas": "Arq. Dinauro Esteves",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1978."
+      }
+    ],
+    "logradouro": "Rua Luiz Barbalho",
+    "numero": "167",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-conde-da-boa-vista-1476",
+    "nome": "Edifício Santa Terezinha",
+    "endereco": "Avenida Conde da Boa Vista, 1476",
+    "bairro": "Soledade",
+    "arquiteto": "Eng. Jonio Santos Pereira de Lemos",
+    "projetistas": [
+      {
+        "prefixo": "Eng.",
+        "nome": "Jonio Santos Pereira de Lemos"
+      }
+    ],
+    "ano": "1956",
+    "lat": -8.05785,
+    "lng": -34.8896,
+    "pagina": "edificio.html?id=av-conde-da-boa-vista-1476",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 1476, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1956",
+        "tipo": "aprovação de projeto",
+        "projetistas": "Eng. Jonio Santos Pereira de Lemos",
+        "descricao": "Projeto de aprovação de projeto aprovado na Prefeitura da Cidade do Recife em 1956."
+      }
+    ],
+    "logradouro": "Avenida Conde da Boa Vista",
+    "numero": "1476",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-conde-da-boa-vista-332",
+    "nome": "Edifício Av. Conde da Boa Vista 332",
+    "endereco": "Avenida Conde da Boa Vista, 332",
+    "bairro": "Soledade",
+    "arquiteto": "Arq. Abrahão Sanovicz",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Abrahão Sanovicz"
+      }
+    ],
+    "ano": "1989",
+    "lat": -8.05955,
+    "lng": -34.883,
+    "pagina": "edificio.html?id=av-conde-da-boa-vista-332",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 332, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1989",
+        "tipo": "construção",
+        "projetistas": "Arq. Abrahão Sanovicz",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1989."
+      }
+    ],
+    "logradouro": "Avenida Conde da Boa Vista",
+    "numero": "332",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-manoel-borba-488",
+    "nome": "Edifício Av. Manoel Borba 488",
+    "endereco": "Avenida Manoel Borba, 488",
+    "bairro": "Soledade",
+    "arquiteto": "Arq. Roberto Safady",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Roberto Safady"
+      }
+    ],
+    "ano": "1982",
+    "lat": -8.0618,
+    "lng": -34.8882,
+    "pagina": "edificio.html?id=av-manoel-borba-488",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Manoel Borba 488, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1982",
+        "tipo": "construção",
+        "projetistas": "Arq. Roberto Safady",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1982."
+      },
+      {
+        "ano": "1985",
+        "tipo": "reforma",
+        "projetistas": "Arq. Roberto Safady",
+        "descricao": "Projeto de reforma aprovado na Prefeitura da Cidade do Recife em 1985."
+      }
+    ],
+    "logradouro": "Avenida Manoel Borba",
+    "numero": "488",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-bulhoes-marques-15",
+    "nome": "Edifício Rua Bulhões Marques 15",
+    "endereco": "Outros Logradouros, 15",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Alex Lomachinsky",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Alex Lomachinsky"
+      }
+    ],
+    "ano": "1967",
+    "lat": -8.0589,
+    "lng": -34.8834,
+    "pagina": "edificio.html?id=rua-bulhoes-marques-15",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Bulhões Marques 15, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1967",
+        "tipo": "construção",
+        "projetistas": "Arq. Alex Lomachinsky",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1967."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "15",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-joaquim-brito-153",
+    "nome": "Edifício Rua Joaquim Brito 153",
+    "endereco": "Rua Joaquim Brito, 153",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Wandenkolk Walter Tinôco",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Wandenkolk Walter Tinôco"
+      }
+    ],
+    "ano": "1964",
+    "lat": -8.0621,
+    "lng": -34.8912,
+    "pagina": "edificio.html?id=rua-joaquim-brito-153",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Joaquim Brito 153, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1964",
+        "tipo": "construção",
+        "projetistas": "Arq. Wandenkolk Walter Tinôco",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1964."
+      }
+    ],
+    "logradouro": "Rua Joaquim Brito",
+    "numero": "153",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-barao-de-sao-borja-480",
+    "nome": "Edifício Yucatam",
+    "endereco": "Outros Logradouros, 480",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. David Kitover, Arq. Augusto Reinaldo, Arq. Ernestina Reinaldo, Arq. Rosana Kitover",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "David Kitover"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Augusto Reinaldo"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Ernestina Reinaldo"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Rosana Kitover"
+      }
+    ],
+    "ano": "1976",
+    "lat": -8.0573,
+    "lng": -34.886,
+    "pagina": "edificio.html?id=rua-barao-de-sao-borja-480",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua barão de são Borja 480, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1976",
+        "tipo": "obra de arte",
+        "projetistas": "Arq. David Kitover, Arq. Augusto Reinaldo, Arq. Ernestina Reinaldo, Arq. Rosana Kitover",
+        "descricao": "Projeto de obra de arte aprovado na Prefeitura da Cidade do Recife em 1976."
+      },
+      {
+        "ano": "1981",
+        "tipo": "construção",
+        "projetistas": "Arq. David Kitover, Arq. Augusto Reinaldo, Arq. Ernestina Reinaldo, Arq. Rosana Kitover",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1981."
+      },
+      {
+        "ano": "1983",
+        "tipo": "alteração",
+        "projetistas": "Arq. David Kitover, Arq. Augusto Reinaldo, Arq. Ernestina Reinaldo, Arq. Rosana Kitover",
+        "descricao": "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1983."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "480",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-barao-de-sao-borja-321",
+    "nome": "Edifício Rua Barão de São Borja 321",
+    "endereco": "Outros Logradouros, 321",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Wandenkolk Walter Tinôco",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Wandenkolk Walter Tinôco"
+      }
+    ],
+    "ano": "1960",
+    "lat": -8.0568,
+    "lng": -34.883,
+    "pagina": "edificio.html?id=rua-barao-de-sao-borja-321",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua barão de são Borja 321, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1960",
+        "tipo": "construção",
+        "projetistas": "Arq. Wandenkolk Walter Tinôco",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1960."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "321",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-das-ninfas-341",
+    "nome": "Edifício Rua das Ninfas 341",
+    "endereco": "Rua das Ninfas, 341",
+    "bairro": "Soledade",
+    "arquiteto": "Arq. Accio Gil Borsoi",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Accio Gil Borsoi"
+      }
+    ],
+    "ano": "1966",
+    "lat": -8.0602,
+    "lng": -34.8901,
+    "pagina": "edificio.html?id=rua-das-ninfas-341",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua das Ninfas 341, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1966",
+        "tipo": "reforma",
+        "projetistas": "Arq. Accio Gil Borsoi",
+        "descricao": "Projeto de reforma aprovado na Prefeitura da Cidade do Recife em 1966."
+      }
+    ],
+    "logradouro": "Rua das Ninfas",
+    "numero": "341",
+    "uso": "Comercial",
+    "tipologia": "NÃ£o se aplica"
+  },
+  {
+    "id": "rua-dom-bosco-687",
+    "nome": "Edifício Rua Dom Bosco 687",
+    "endereco": "Rua Dom Bosco, 687",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Delfim Amorim"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Heitor Maia Neto"
+      }
+    ],
+    "ano": "1968",
+    "lat": -8.0591,
+    "lng": -34.8942,
+    "pagina": "edificio.html?id=rua-dom-bosco-687",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Dom Bosco 687, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1968",
+        "tipo": "construção",
+        "projetistas": "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1968."
+      }
+    ],
+    "logradouro": "Rua Dom Bosco",
+    "numero": "687",
+    "uso": "Institucional",
+    "tipologia": "NÃ£o se aplica"
+  },
+  {
+    "id": "rua-jose-de-alencar-264",
+    "nome": "Edifício Rua José de Alencar 264",
+    "endereco": "Outros Logradouros, 264",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Joaquim Rodrigues",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Joaquim Rodrigues"
+      }
+    ],
+    "ano": "1953",
+    "lat": -8.0648,
+    "lng": -34.886,
+    "pagina": "edificio.html?id=rua-jose-de-alencar-264",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua José de Alencar 264, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1953",
+        "tipo": "construção",
+        "projetistas": "Arq. Joaquim Rodrigues",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1953."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "264",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-carlos-porto-carreira-190",
+    "nome": "Edifício Berilo",
+    "endereco": "Rua Carlos Porto Carreiro, 190",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Paulo Gondim Vaz de Oliveira",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Paulo Gondim Vaz de Oliveira"
+      }
+    ],
+    "ano": "1963",
+    "lat": -8.0581,
+    "lng": -34.8932,
+    "pagina": "edificio.html?id=rua-carlos-porto-carreira-190",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Carlos Porto Carreira 190, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1963",
+        "tipo": "construção",
+        "projetistas": "Arq. Paulo Gondim Vaz de Oliveira",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1963."
+      }
+    ],
+    "logradouro": "Rua Carlos Porto Carreiro",
+    "numero": "190",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-jose-de-alencar-234",
+    "nome": "Edifício Rua José de Alencar 234",
+    "endereco": "Outros Logradouros, 234",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Eng. Luiz Noya Volfzon",
+    "projetistas": [
+      {
+        "prefixo": "Eng.",
+        "nome": "Luiz Noya Volfzon"
+      }
+    ],
+    "ano": "1954",
+    "lat": -8.0645,
+    "lng": -34.8858,
+    "pagina": "edificio.html?id=rua-jose-de-alencar-234",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua José de Alencar 234, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1954",
+        "tipo": "construção",
+        "projetistas": "Eng. Luiz Noya Volfzon",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1954."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "234",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-dom-bosco-871",
+    "nome": "Edifício Rua Dom Bosco 871",
+    "endereco": "Rua Dom Bosco, 871",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Jorge Martins Júnior, Arq. Maria Lcia Athayde",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Jorge Martins Júnior"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Maria Lcia Athayde"
+      }
+    ],
+    "ano": "1967",
+    "lat": -8.0595,
+    "lng": -34.8955,
+    "pagina": "edificio.html?id=rua-dom-bosco-871",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Dom Bosco 871, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1967",
+        "tipo": "construção",
+        "projetistas": "Arq. Jorge Martins Júnior, Arq. Maria Lcia Athayde",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1967."
+      },
+      {
+        "ano": "1967",
+        "tipo": "aprovação de projeto",
+        "projetistas": "Arq. Jorge Martins Júnior, Arq. Maria Lcia Athayde",
+        "descricao": "Projeto de aprovação de projeto aprovado na Prefeitura da Cidade do Recife em 1967."
+      }
+    ],
+    "logradouro": "Rua Dom Bosco",
+    "numero": "871",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-conde-da-boa-vista-800",
+    "nome": "Edifício Av. Conde da Boa Vista 800",
+    "endereco": "Avenida Conde da Boa Vista, 800",
+    "bairro": "Soledade",
+    "arquiteto": "Arq. Reforma",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Reforma"
+      }
+    ],
+    "ano": "s.d.",
+    "lat": -8.0585,
+    "lng": -34.8858,
+    "pagina": "edificio.html?id=av-conde-da-boa-vista-800",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 800, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [],
+    "logradouro": "Avenida Conde da Boa Vista",
+    "numero": "800",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-capitao-ruy-luneca-160",
+    "nome": "Edifício colorado",
+    "endereco": "Outros Logradouros, 160",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Geraldo Santana",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Geraldo Santana"
+      }
+    ],
+    "ano": "1973",
+    "lat": -8.0597,
+    "lng": -34.8831,
+    "pagina": "edificio.html?id=rua-capitao-ruy-luneca-160",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Capitão Ruy Luneca 160, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1973",
+        "tipo": "alteração",
+        "projetistas": "Arq. Geraldo Santana",
+        "descricao": "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1973."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "160",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-da-aurora-295",
+    "nome": "Edifício Rua da Aurora 295",
+    "endereco": "Rua da Aurora, 295",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Alex Lomachinsky",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Alex Lomachinsky"
+      }
+    ],
+    "ano": "s.d.",
+    "lat": -8.05476,
+    "lng": -34.87986,
+    "pagina": "edificio.html?id=rua-da-aurora-295",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua da Aurora 295, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [],
+    "logradouro": "Rua da Aurora",
+    "numero": "295",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-da-aurora-325",
+    "nome": "Edifício Rua da Aurora 325",
+    "endereco": "Rua da Aurora, 325",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Pedro Montenegro, Arq. Waldecy Fernandes Pinto",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Pedro Montenegro"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Waldecy Fernandes Pinto"
+      }
+    ],
+    "ano": "1979",
+    "lat": -8.0545,
+    "lng": -34.8797,
+    "pagina": "edificio.html?id=rua-da-aurora-325",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua da Aurora 325, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1979",
+        "tipo": "alteração",
+        "projetistas": "Arq. Pedro Montenegro, Arq. Waldecy Fernandes Pinto",
+        "descricao": "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1979."
+      }
+    ],
+    "logradouro": "Rua da Aurora",
+    "numero": "325",
+    "uso": "Misto",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-da-Soledade-57",
+    "nome": "Edifício Rua da Soledade 57",
+    "endereco": "Outros Logradouros, 57",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Delfim Amorim"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Heitor Maia Neto"
+      }
+    ],
+    "ano": "1969",
+    "lat": -8.0588,
+    "lng": -34.8905,
+    "pagina": "edificio.html?id=rua-da-Soledade-57",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua da Soledade 57, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1969",
+        "tipo": "construção",
+        "projetistas": "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1969."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "57",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-do-riachuelo-201",
+    "nome": "Edifício Forte Orange",
+    "endereco": "Rua do Riachuelo, 201",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Delfim Amorim, Arq. Cláudio Cavalcanti",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Delfim Amorim"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Cláudio Cavalcanti"
+      }
+    ],
+    "ano": "1980",
+    "lat": -8.0572,
+    "lng": -34.8819,
+    "pagina": "edificio.html?id=rua-do-riachuelo-201",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua do Riachuelo 201, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1980",
+        "tipo": "construção",
+        "projetistas": "Arq. Delfim Amorim, Arq. Cláudio Cavalcanti",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1980."
+      }
+    ],
+    "logradouro": "Rua do Riachuelo",
+    "numero": "201",
+    "uso": "Misto",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-dom-bosco-913",
+    "nome": "Edifício Rua Dom Bosco 913",
+    "endereco": "Rua Dom Bosco, 913",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Waldecy Fernandes Pinto, Arq. Renato Gonçalves Torres, Arq. Antônio Pedro Pina Didier",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Waldecy Fernandes Pinto"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Renato Gonçalves Torres"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Antônio Pedro Pina Didier"
+      }
+    ],
+    "ano": "1970",
+    "lat": -8.0596,
+    "lng": -34.8958,
+    "pagina": "edificio.html?id=rua-dom-bosco-913",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Dom Bosco 913, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1970",
+        "tipo": "alteração",
+        "projetistas": "Arq. Waldecy Fernandes Pinto, Arq. Renato Gonçalves Torres, Arq. Antônio Pedro Pina Didier",
+        "descricao": "Projeto de alteração aprovado na Prefeitura da Cidade do Recife em 1970."
+      }
+    ],
+    "logradouro": "Rua Dom Bosco",
+    "numero": "913",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-jose-de-alencar-447",
+    "nome": "Edifício Rua Jos de Alencar 447",
+    "endereco": "Outros Logradouros, 447",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Alex Lomachinsky",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Alex Lomachinsky"
+      }
+    ],
+    "ano": "1976",
+    "lat": -8.0597,
+    "lng": -34.8849,
+    "pagina": "edificio.html?id=rua-jose-de-alencar-447",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Jos de Alencar 447, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1976",
+        "tipo": "construção",
+        "projetistas": "Arq. Alex Lomachinsky",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1976."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "447",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-jose-de-alencar-493",
+    "nome": "Edifício Rua Jos de Alencar 493",
+    "endereco": "Outros Logradouros, 493",
+    "bairro": "BOA VISTA - RECIFE",
+    "arquiteto": "Arq. Carlos Alberto Carneiro da Cunha, Arq. Carlos Jos Henriques de Araujo",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Carlos Alberto Carneiro da Cunha"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Carlos Jos Henriques de Araujo"
+      }
+    ],
+    "ano": "1973",
+    "lat": -8.0586,
+    "lng": -34.8848,
+    "pagina": "edificio.html?id=rua-jose-de-alencar-493",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Jos de Alencar 493, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1973",
+        "tipo": "construção",
+        "projetistas": "Arq. Carlos Alberto Carneiro da Cunha, Arq. Carlos Jos Henriques de Araujo",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1973."
+      }
+    ],
+    "logradouro": "Outros Logradouros",
+    "numero": "493",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-miguel-couto-89",
+    "nome": "Edifício Rua Miguel Couto 89",
+    "endereco": "Rua Miguel Couto, 89",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Delfim Amorim",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Delfim Amorim"
+      }
+    ],
+    "ano": "1970",
+    "lat": -8.0631,
+    "lng": -34.8901,
+    "pagina": "edificio.html?id=rua-miguel-couto-89",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Miguel Couto 89, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1970",
+        "tipo": "construção",
+        "projetistas": "Arq. Delfim Amorim",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1970."
+      }
+    ],
+    "logradouro": "Rua Miguel Couto",
+    "numero": "89",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-miguel-couto-90",
+    "nome": "Edifício Rua Miguel Couto 90",
+    "endereco": "Rua Miguel Couto, 90",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Delfim Amorim"
+      },
+      {
+        "prefixo": "Arq.",
+        "nome": "Heitor Maia Neto"
+      }
+    ],
+    "ano": "1963",
+    "lat": -8.06315,
+    "lng": -34.89015,
+    "pagina": "edificio.html?id=rua-miguel-couto-90",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Miguel Couto 90, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1963",
+        "tipo": "construção",
+        "projetistas": "Arq. Delfim Amorim, Arq. Heitor Maia Neto",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1963."
+      }
+    ],
+    "logradouro": "Rua Miguel Couto",
+    "numero": "90",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-samuel-pinto-90",
+    "nome": "Edifício Rua Samuel Pinto 90",
+    "endereco": "Rua Samuel Pinto, 90",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Hugo Marques",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Hugo Marques"
+      }
+    ],
+    "ano": "1963",
+    "lat": -8.06035,
+    "lng": -34.8973,
+    "pagina": "edificio.html?id=rua-samuel-pinto-90",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Samuel Pinto 90, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1963",
+        "tipo": "construção",
+        "projetistas": "Arq. Hugo Marques",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1963."
+      }
+    ],
+    "logradouro": "Rua Samuel Pinto",
+    "numero": "90",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "rua-bulhoes-marques-19",
+    "nome": "Edifício Rua Bulhões Marques 19",
+    "endereco": "Rua Bulhões Marques, 19",
+    "bairro": "Boa Vista",
+    "arquiteto": "Arq. Alex Lomachinsky",
+    "projetistas": [
+      {
+        "prefixo": "Arq.",
+        "nome": "Alex Lomachinsky"
+      }
+    ],
+    "ano": "1966",
+    "lat": -8.0574,
+    "lng": -34.8831,
+    "pagina": "edificio.html?id=rua-bulhoes-marques-19",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Rua Bulhões Marques 19, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [
+      {
+        "ano": "1966",
+        "tipo": "construção",
+        "projetistas": "Arq. Alex Lomachinsky",
+        "descricao": "Projeto de construção aprovado na Prefeitura da Cidade do Recife em 1966."
+      }
+    ],
+    "logradouro": "Rua Bulhões Marques",
+    "numero": "19",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  },
+  {
+    "id": "av-conde-da-boa-vista-247",
+    "nome": "Edifício Av. Conde da Boa Vista 247",
+    "endereco": "Avenida Conde da Boa Vista, 247",
+    "bairro": "Soledade",
+    "arquiteto": "Autor a confirmar",
+    "projetistas": [],
+    "ano": "s.d.",
+    "lat": -8.05985,
+    "lng": -34.8821,
+    "pagina": "edificio.html?id=av-conde-da-boa-vista-247",
+    "imagem": "",
+    "texto": [
+      "Ficha de levantamento do imóvel localizado em Av. Conde da Boa Vista 247, Recife - PE.",
+      "Esta ficha reúne a identificação dos projetistas responsáveis, a localização georreferenciada no mapa interativo e a documentação arquivística."
+    ],
+    "fotos": [],
+    "etapas": [],
+    "logradouro": "Avenida Conde da Boa Vista",
+    "numero": "247",
+    "uso": "Residencial",
+    "tipologia": "Multifamiliar"
+  }
 ]
