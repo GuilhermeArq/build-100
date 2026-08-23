@@ -55,6 +55,11 @@
         }
         ids.add(id);
         const projetistas = parseProjetistas(projetistasTexto);
+        const quantidadeImagens = Math.max(1, Number(quantidadeImagensOriginais) || 1);
+        const imagem = `midia/edificios/catalogo/${id}-01.jpg`;
+        const fotos = Array.from({ length: Math.max(0, quantidadeImagens - 1) }, (_, index) =>
+          `midia/edificios/catalogo/${id}-${String(index + 2).padStart(2, '0')}.jpg`
+        );
 
         return {
           id,
@@ -72,11 +77,11 @@
           tipologia: 'Não informado',
           status: 'NÃO INFORMADO',
           fonte: fonte || '',
-          imagem: '',
-          fotos: [],
+          imagem,
+          fotos,
           texto: [],
           etapas: [],
-          quantidadeImagensOriginais: quantidadeImagensOriginais || 1,
+          quantidadeImagensOriginais: quantidadeImagens,
           pagina: `edificio.html?id=${encodeURIComponent(id)}`
         };
       });
