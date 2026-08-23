@@ -11,6 +11,15 @@
     return window.location.pathname.includes('/buildings/') ? '../' + path : path;
   }
 
+  function escapeHTML(value) {
+    return String(value ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
   window.GUIA.initMap = async function initMap() {
     const mapElement = document.getElementById('guia-map');
     if (!mapElement) return;
@@ -50,6 +59,7 @@
     });
 
     const response = await fetch(assetPath('data/edificios.json'));
+    if (!response.ok) throw new Error('Catálogo de edifícios não encontrado');
     const edificios = await response.json();
 
     clusterLayer = L.markerClusterGroup({
@@ -77,15 +87,15 @@
       const marker = L.marker([lat, lng], { icon: isFocused ? highlightIcon : markerIcon });
 
       const thumbImg = edificio.imagem
-        ? `<div style="margin-bottom:6px; max-height:100px; overflow:hidden; border-radius:3px;"><img src="${assetPath(edificio.imagem)}" style="width:100%; display:block; object-fit:cover;"></div>`
+        ? `<div style="margin-bottom:6px; max-height:100px; overflow:hidden; border-radius:3px;"><img src="${escapeHTML(assetPath(edificio.imagem))}" style="width:100%; display:block; object-fit:cover;" alt="${escapeHTML(edificio.nome || 'Edificação')}"></div>`
         : '';
 
       marker.bindPopup(`
         <div class="guia-popup">
           ${thumbImg}
-          <a class="guia-popup-title" href="${assetPath(pagina)}">${edificio.nome}</a>
-          <p class="guia-popup-meta">${edificio.endereco || ''}</p>
-          <p class="guia-popup-meta">${edificio.arquiteto || 'Autor não identificado'}${edificio.ano ? ' · ' + edificio.ano : ''}</p>
+          <a class="guia-popup-title" href="${escapeHTML(assetPath(pagina))}">${escapeHTML(edificio.nome || edificio.endereco || 'Edificação')}</a>
+          <p class="guia-popup-meta">${escapeHTML(edificio.endereco || '')}</p>
+          <p class="guia-popup-meta">${escapeHTML(edificio.arquiteto || 'Projetista não informado')}${edificio.ano && edificio.ano !== 's.d.' ? ' · ' + escapeHTML(edificio.ano) : ''}</p>
         </div>
       `);
 
@@ -101,8 +111,8 @@
         lat,
         lng,
         year,
-        uso: (edificio.uso || 'Residencial').toLowerCase(),
-        tipologia: (edificio.tipologia || 'Multifamiliar').toLowerCase()
+        uso: (edificio.uso || 'Não informado').toLowerCase(),
+        tipologia: (edificio.tipologia || 'Não informado').toLowerCase()
       };
       allMarkers.push(itemObj);
 
@@ -161,7 +171,6 @@
     const tipologiaContainer = document.getElementById('map-tipologia-toggles');
 
     function applyMapFilter() {
-      // 1. Décadas
       const decadeBtns = decadeContainer ? decadeContainer.querySelectorAll('.map-decade-toggle') : [];
       const btnDecadeAll = decadeContainer ? decadeContainer.querySelector('.map-decade-toggle[data-decade="all"]') : null;
       const activeDecades = Array.from(decadeBtns)
@@ -169,7 +178,6 @@
         .map((b) => parseInt(b.dataset.decade, 10));
       const isAllDecades = btnDecadeAll?.classList.contains('is-active') || activeDecades.length === 0;
 
-      // 2. Tipo de Uso
       const usoBtns = usoContainer ? usoContainer.querySelectorAll('.map-uso-toggle') : [];
       const btnUsoAll = usoContainer ? usoContainer.querySelector('.map-uso-toggle[data-uso="all"]') : null;
       const activeUsos = Array.from(usoBtns)
@@ -177,7 +185,6 @@
         .map((b) => b.dataset.uso.toLowerCase());
       const isAllUso = btnUsoAll?.classList.contains('is-active') || activeUsos.length === 0;
 
-      // 3. Tipologia
       const tipologyBtns = tipologiaContainer ? tipologiaContainer.querySelectorAll('.map-tipologia-toggle') : [];
       const btnTipoAll = tipologiaContainer ? tipologiaContainer.querySelector('.map-tipologia-toggle[data-tipologia="all"]') : null;
       const activeTipologies = Array.from(tipologyBtns)
